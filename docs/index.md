@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<img src="assets/profile.jpg" alt="Banner" style="width:100px; height:100px;">
+
 # Daniel Richards R
 
 ![Banner](assets/profile.jpg)
