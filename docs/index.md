@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="profile">
   <img src="assets/profile.jpg" alt="Banner">
   <h1>Daniel Richards R</h1>
