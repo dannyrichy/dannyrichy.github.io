@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="profile">
-  <img src="assets/profile.jpg" alt="Banner">
+  <img src="assets/profile.jpg" alt="Banner" style="width:100px; height:100px;">
   <h1>Daniel Richards R</h1>
 </div>
 
