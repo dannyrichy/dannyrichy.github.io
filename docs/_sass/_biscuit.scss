@@ -111,8 +111,11 @@ h1, h2 {
   font-weight: 900; /* Black 900 weight for larger headings */
 }
 
-p, ul, ol, dl, table, pre, blockquote {
-  font-size: 0.875rem; /* Set normal text to 87.5% of the base size */
+p, ul, ol, dl, blockquote {
+  font-family: 'Merriweather', serif;
+  font-weight: 400; /* Regular weight for paragraph text */
+  font-size: 0.875rem; /* Slightly smaller font for normal text */
+  line-height: 1.6; /* Adjust line-height for readability */
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -126,9 +129,7 @@ dd {
 }
 
 blockquote {
-  margin-left: 0;
-  margin-right: 0;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-left: .25rem solid #ccc;
   color: #666;
 }
