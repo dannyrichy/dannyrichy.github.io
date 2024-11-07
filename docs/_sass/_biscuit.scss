@@ -1,8 +1,9 @@
 /* Import the DM Serif Text font */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
+/* Base font for the entire document */
 html {
-  font: 15px/1.5 "DM Serif Text", serif;
+  font: 15px/1.5 'Merriweather', serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -15,8 +16,11 @@ html {
 body {
   margin: 2rem 0 5rem;
   color: #333;
-  background: linear-gradient(135deg, #f9f4e7 25%, #f3ebd3 25%, #f3ebd3 50%, #f9f4e7 50%, #f9f4e7 75%, #f3ebd3 75%, #f3ebd3 100%);
-  background-size: 20px 20px;
+  font-family: 'Merriweather', serif;
+  background-image: url('assets/paper-texture.jpg'); /* Add a paper texture image here */
+  background-size: cover; /* Ensure the texture covers the entire page */
+  background-blend-mode: multiply;
+  background-repeat: repeat; /* Repeat for seamless texture */
 }
 
 @media (min-width: 30rem) {
@@ -49,9 +53,9 @@ small {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "DM Serif Text", serif;
+  font-family: 'Merriweather', serif;
   -webkit-font-smoothing: antialiased;
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
+  margin: 0 0 0.5rem -0.1rem;
   line-height: 1;
   color: #111;
   text-rendering: optimizeLegibility;
