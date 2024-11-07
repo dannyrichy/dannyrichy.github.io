@@ -1,5 +1,5 @@
 /* Import the DM Serif Text font */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 
 /* Base font for the entire document */
 html {
@@ -54,6 +54,7 @@ small {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
+  font-weight: 900; /* Use Black 900 weight */
   -webkit-font-smoothing: antialiased;
   margin: 0 0 0.5rem -0.1rem;
   line-height: 1;
