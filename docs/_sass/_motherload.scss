@@ -241,8 +241,10 @@ pre > code {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  max-width: 60rem; /* Limit max-width to 1200px (you can adjust as needed) */
+  max-width: 40rem; /* Limit max-width to 1200px (you can adjust as needed) */
   margin: 0 auto; /* Center the container horizontally */
+  height: 100vh;  /* Ensure it takes up the full viewport height */
+  overflow: auto; /* Enable scrolling if content overflows */
 }
 
 .cv-page .cv-main-content {
@@ -254,7 +256,8 @@ pre > code {
 
 /* Sidebar styling */
 .cv-page .sidebar {
-  position: sticky; /* Keeps the sidebar fixed while scrolling */
+  position: -webkit-sticky; /* Add support for Safari */
+  position: sticky; /* Sticky positioning for modern browsers */
   top: 0;  /* Aligns the top of the sidebar with the top of the page */
   width: 15%;  /* Sidebar width */
   padding-top: 2rem;
