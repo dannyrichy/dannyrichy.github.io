@@ -19,39 +19,39 @@ title: "CV"
 
 ## Work Experience
 
-#### Research Visit (Internship)
+#### **Research Visit (Internship)**
   Inria Centre at Université Côte d’Azur, Nice, France  
   _Sep 2024 – Present_  
   Working on topics related to Green Federated Learning under the supervision of Prof. Dr. Giovanni Neglia.
 
-#### Thesis Worker
+#### **Thesis Worker**
   Scania AB, Stockholm, Sweden  
   _Jan 2023 – Nov 2023_  
   Conducted my master’s thesis work in collaboration with Scania AB, exploring deep learning architectures for time series anomaly detection and effective compression techniques.
 
-#### Research Engineer
+#### **Research Engineer**
   Division of Geoinformatics, KTH, Stockholm, Sweden  
   _Jun 2023 – Jul 2023_  
   Expanded the transformer-based wildfire detection model trained on satellite images to cover new geographic regions.
 
-#### Teaching Assistant
+#### **Teaching Assistant**
   KTH, Stockholm, Sweden  
   _Nov 2021 – May 2023_  
   Assisted in tutorials, graded assignments, and prepared course materials for Advanced Machine Learning, Artificial Intelligence, and Search Engines courses.
 
-#### Summer Worker
+#### **Summer Worker**
   Scania AB, Stockholm, Sweden  
   _Jun 2022 – Aug 2022_  
   - Developed an MLP model for identifying faulty components by leveraging diagnostic trouble codes (DTC).
 
   - Created models for fault detection in components based on text and diagnostic trouble codes.
 
-#### Data Scientist
+#### **Data Scientist**
   Gyan Data, Chennai, India  
   _Sep 2019 – Jun 2021_  
   Worked on projects for Pfizer and VOLTAS, developing predictive models for manufacturing and industrial HVAC monitoring.
 
-#### Business Analytics Consultant
+#### **Business Analytics Consultant**
   Crayon Data, Chennai, India  
   _Jun 2018 – Sep 2019_  
   Developed recommendation engines and performed entity resolution to improve scalability for large datasets.
@@ -82,4 +82,4 @@ title: "CV"
 
 ## Skills
 
-Python, Java, Scala, TensorFlow, PyTorch, Keras, Apache Spark, Airflow, OpenMPI, SQL, AWS, GCP, Git, Slurm
+  Python, Java, Scala, TensorFlow, PyTorch, Keras, Apache Spark, Airflow, OpenMPI, SQL, AWS, GCP, Git, Slurm, OAR

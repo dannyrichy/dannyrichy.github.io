@@ -15,8 +15,4 @@ Right, now this site is supposed to be a personal website, but then again for wh
 
 ---
 
-## Projects
-### 
-
-### CV
 
