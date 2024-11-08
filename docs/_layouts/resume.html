@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="css/main.css">
-{% include head.html %}
+  {% include head.html %}
 </head>
+
 <body>
   <div class="container">
-    <!-- Main content section -->
-    <div class="main-content">
-      {{ content }}
-    </div>
-
-    <!-- Sidebar section -->
-    <div class="sidebar">
+    <nav class="sidebar">
       <h2>Index</h2>
-      <ul>
+      <ul class="sidebar-nav">
         <li><a href="#education" class="sidebar-link">Education</a></li>
         <li><a href="#work-experience" class="sidebar-link">Work Experience</a></li>
         <li><a href="#projects" class="sidebar-link">Projects</a></li>
         <li><a href="#skills" class="sidebar-link">Skills</a></li>
       </ul>
+    </nav>
+    <div class="main-content">
+      {{ content }}
     </div>
   </div>
-{% include scripts.html %}
+  {% include scripts.html %}
 </body>
+
 </html>

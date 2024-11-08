@@ -242,15 +242,27 @@ pre > code {
   padding-right: 2rem;  /* Space for the sidebar */
 }
 
-/* Sidebar styling */
+/* Sidebar Styling */
 .sidebar {
-  position: sticky; /* Keeps the sidebar fixed while scrolling */
-  top: 0;  /* Aligns the top of the sidebar with the top of the page */
-  width: 20%;  /* Sidebar takes 20% width of the container */
+  position: sticky;
+  top: 0;
+  width: 20%;
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  border-left: 1px solid #ddd; /* Border between sidebar and content */
+  border-left: 1px solid #ddd;
+  background-color: #f9f9f9;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
 }
 
 /* Styling for sidebar links */
@@ -260,13 +272,21 @@ pre > code {
   font-size: 0.9rem;
   display: block;
   padding: 0.5rem 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Active link in sidebar */
 .sidebar-link.active {
   color: #000;
   font-weight: bold;
-  background-color: #f0f0f0;
+  background-color: #0074d9;  /* Add a blue background on active link */
+  color: white;  /* White text on active link */
+}
+
+/* Sidebar link hover effect */
+.sidebar-link:hover {
+  background-color: #f0f0f0;  /* Subtle hover background color */
+  color: #333;
 }
 
 .sidebar-link.active::before {
@@ -277,9 +297,14 @@ pre > code {
   margin-top: 0.5rem;
 }
 
+/* Responsive Sidebar */
 @media (max-width: 768px) {
   .sidebar {
     width: 100%;  /* Full width for smaller screens */
     padding-top: 1rem;
+  }
+  
+  .sidebar-link {
+    font-size: 1rem;  /* Larger text on mobile */
   }
 }
