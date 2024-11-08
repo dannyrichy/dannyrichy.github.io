@@ -189,3 +189,25 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+/* Navigation */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+    color: #0074d9;
+}
