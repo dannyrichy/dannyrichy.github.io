@@ -11,16 +11,21 @@
 </head>
 <body>
   <div class="container">
-    <nav class="sidebar" style="width: 20%; padding-top: 2rem; border-right: 1px solid #ddd;">
-      <h2 style="font-size: 1.25rem; font-family: 'Merriweather', serif;">Index</h2>
-      <ul style="list-style-type: none; padding: 0;">
-        <li><a href="#education">Education</a></li>
-        <li><a href="#work-experience">Work Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
+    <!-- Main content section -->
+    <div class="main-content">
+      {{ content }}
+    </div>
+
+    <!-- Sidebar section -->
+    <div class="sidebar">
+      <h2>Index</h2>
+      <ul>
+        <li><a href="#education" class="sidebar-link">Education</a></li>
+        <li><a href="#work-experience" class="sidebar-link">Work Experience</a></li>
+        <li><a href="#projects" class="sidebar-link">Projects</a></li>
+        <li><a href="#skills" class="sidebar-link">Skills</a></li>
       </ul>
-    </nav>
-    {{ content }}
+    </div>
   </div>
 {% include scripts.html %}
 </body>

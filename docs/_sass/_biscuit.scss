@@ -185,7 +185,7 @@ pre > code {
 }
 
 .container {
-  max-width: 30rem;
+  max-width: 40rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -236,27 +236,50 @@ pre > code {
   border-bottom: 2px solid #333; /* Adds a dark line under the selected section */
 }
 
-/* Styles for sidebar links */
+/* Main content styling */
+.main-content {
+  flex: 1;  /* Main content takes up the remaining space */
+  padding-right: 2rem;  /* Space for the sidebar */
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: sticky; /* Keeps the sidebar fixed while scrolling */
+  top: 0;  /* Aligns the top of the sidebar with the top of the page */
+  width: 20%;  /* Sidebar takes 20% width of the container */
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 1px solid #ddd; /* Border between sidebar and content */
+}
+
+/* Styling for sidebar links */
 .sidebar-link {
-  color: #777; /* Default grey color */
+  color: #777;  /* Default grey color */
   text-decoration: none;
-  font-size: 0.9rem; /* Smaller font for sidebar links */
+  font-size: 0.9rem;
   display: block;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
-/* Active state for sidebar link */
+/* Active link in sidebar */
 .sidebar-link.active {
-  color: #000; /* Dark color for active link */
-  font-weight: bold; /* Make it bold for emphasis */
-  background-color: #f0f0f0; /* Optional: background color for active link */
+  color: #000;
+  font-weight: bold;
+  background-color: #f0f0f0;
 }
 
-/* Optionally, add a border or underline for active sections */
 .sidebar-link.active::before {
   content: '';
   display: block;
   height: 2px;
   background-color: #000;
   margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;  /* Full width for smaller screens */
+    padding-top: 1rem;
+  }
 }
