@@ -242,34 +242,19 @@ pre > code {
   padding-right: 2rem;  /* Space for the sidebar */
 }
 
-/* Sidebar Styling */
+/* Remove list numbering (index) from sidebar links */
 .sidebar {
-  position: sticky;
-  top: 0;
-  width: 20%;
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-left: 1px solid #ddd;
-  background-color: #f9f9f9;
-  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.sidebar-nav {
-  list-style: none;
-  padding: 0;
+  list-style-type: none;  /* Remove default numbering in lists */
+  padding-left: 0;  /* Remove padding for list items */
+  margin-top: 0;  /* Optional, to remove any margin at the top */
+  width: 15%;  /* Reduced width of the sidebar */
 }
 
 /* Styling for sidebar links */
 .sidebar-link {
   color: #777;  /* Default grey color */
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;  /* Reduced font size for sidebar links */
   display: block;
   padding: 0.5rem 0;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -279,13 +264,13 @@ pre > code {
 .sidebar-link.active {
   color: #000;
   font-weight: bold;
-  background-color: #0074d9;  /* Add a blue background on active link */
-  color: white;  /* White text on active link */
+  background-color: #0074d9;  /* Active background color */
+  color: white;  /* White text for active link */
 }
 
 /* Sidebar link hover effect */
 .sidebar-link:hover {
-  background-color: #f0f0f0;  /* Subtle hover background color */
+  background-color: #f0f0f0;  /* Subtle hover background */
   color: #333;
 }
 
@@ -300,11 +285,11 @@ pre > code {
 /* Responsive Sidebar */
 @media (max-width: 768px) {
   .sidebar {
-    width: 100%;  /* Full width for smaller screens */
+    width: 100%;  /* Full width on smaller screens */
     padding-top: 1rem;
   }
-  
+
   .sidebar-link {
-    font-size: 1rem;  /* Larger text on mobile */
+    font-size: 0.9rem;  /* Slightly larger text on mobile */
   }
 }
