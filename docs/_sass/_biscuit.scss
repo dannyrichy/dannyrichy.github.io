@@ -235,3 +235,28 @@ pre > code {
 .top-nav a.active {
   border-bottom: 2px solid #333; /* Adds a dark line under the selected section */
 }
+
+/* Styles for sidebar links */
+.sidebar-link {
+  color: #777; /* Default grey color */
+  text-decoration: none;
+  font-size: 0.9rem; /* Smaller font for sidebar links */
+  display: block;
+  padding: 0.5rem;
+}
+
+/* Active state for sidebar link */
+.sidebar-link.active {
+  color: #000; /* Dark color for active link */
+  font-weight: bold; /* Make it bold for emphasis */
+  background-color: #f0f0f0; /* Optional: background color for active link */
+}
+
+/* Optionally, add a border or underline for active sections */
+.sidebar-link.active::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #000;
+  margin-top: 0.5rem;
+}
