@@ -18,15 +18,7 @@ layout: default
 
   <!-- Right column: Profile photo and icons -->
   <div style="text-align: center;">
-    <img src="assets/profile.jpg" alt="Profile Photo" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 1rem;">
-    <div>
-      <a href="https://github.com/dannyrichy" style="margin: 0 0.5rem;">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width: 24px; height: 24px;">
-      </a>
-      <a href="mailto:richydany@gmail.com" style="margin: 0 0.5rem;">
-        <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/mail/default/48px.svg" alt="Email" style="width: 24px; height: 24px;">
-      </a>
-    </div>
+    <img src="assets/profile.jpg" alt="Profile Photo" style="width: 200px; height: 200px; margin-bottom: 1rem;">
   </div>
 </div>
 
