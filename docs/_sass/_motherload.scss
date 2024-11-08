@@ -236,51 +236,59 @@ pre > code {
   border-bottom: 2px solid #333; /* Adds a dark line under the selected section */
 }
 
-.cv-container {
-  max-width: 80rem;  /* Adjust the width to a comfortable size for CV */
-  margin: 0 auto;
+/* Styles specific to the CV page */
+.cv-page .cv-container {
   display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  max-width: 60rem; /* Limit max-width to 1200px (you can adjust as needed) */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
-.main-content {
-  flex: 1; /* Main content takes up the remaining space */
+.cv-page .cv-main-content {
+  flex: 1;
+  padding-left: 15%;
   padding-right: 2rem;
 }
 
+
+/* Sidebar styling */
 .cv-page .sidebar {
-  position: sticky;
-  top: 0;
-  width: 15%; /* Sidebar width */
+  position: sticky; /* Keeps the sidebar fixed while scrolling */
+  top: 0;  /* Aligns the top of the sidebar with the top of the page */
+  width: 15%;  /* Sidebar width */
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: transparent; /* Make background transparent */
-  border: none; /* No border */
-  box-shadow: none; /* Remove shadow */
-  z-index: 10; /* Ensure the sidebar stays above the content */
+  background-color: transparent;  /* Transparent background */
+  border: none; /* Remove any border */
+  box-shadow: none; /* Remove any box-shadow or extra effects */
+  z-index: 10;  /* Ensure the sidebar stays above the content */
 }
 
+/* Styling for sidebar links */
 .cv-page .sidebar-link {
-  color: #333; /* Dark color for links */
+  color: #333; /* Dark color for links (matches navbar) */
   text-decoration: none;
-  font-size: 1rem; /* Consistent font size */
+  font-size: 1rem;
   display: block;
-  padding: 0.75rem 0;
-  margin-bottom: 1rem;
+  padding: 0.5rem 0;  /* Reduced padding for less space between items */
+  margin-bottom: 0.5rem;  /* Reduced space between links */
   font-family: 'Merriweather', serif; /* Consistent font family */
-  font-weight: 400; /* Regular weight */
-  transition: color 0.3s ease;
+  font-weight: 400; /* Regular font weight */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Active link in sidebar */
 .cv-page .sidebar-link.active {
-  color: #0074d9; /* Active link color */
+  color: #333; /* Active link color (matches navbar) */
   font-weight: bold;
+  border-bottom: 2px solid #333; /* Border to match the active navbar link style */
 }
 
 /* Hover effect for sidebar links */
 .cv-page .sidebar-link:hover {
-  color: #0074d9; /* Change color on hover */
+  color: #333; /* Change color to match navbar hover color */
 }
 
 /* Media query for small screens */
@@ -288,5 +296,8 @@ pre > code {
   .cv-page .sidebar {
     width: 100%;  /* Full width for smaller screens */
     padding-top: 1rem;
+  }
+  .cv-page .main-content {
+    padding-left: 0;  /* No space on left for smaller screens */
   }
 }
