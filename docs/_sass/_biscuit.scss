@@ -190,24 +190,41 @@ pre > code {
   padding: 0 1rem;
 }
 
-/* Navigation */
+/* Top navigation styling */
 .top-nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Aligns the items to the right */
     align-items: center;
-    background-color: #333;
     padding: 1rem;
+    background-color: transparent; /* Transparent background */
+    position: fixed; /* Makes it stick at the top */
+    width: 100%;
 }
 
+/* Styling for each link */
 .top-nav a {
-    color: white;
+    color: #333; /* Dark color for contrast */
     text-decoration: none;
-    margin: 0 1rem;
+    margin: 0 1rem; /* Space between links */
     font-size: 1.1rem;
+    font-family: 'Merriweather', serif;
     font-weight: 400;
-    transition: color 0.3s ease;
+    position: relative; /* Required for the hover underline */
 }
 
-.top-nav a:hover {
-    color: #0074d9;
+/* Hover underline effect */
+.top-nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Slightly below the text */
+    width: 0;
+    height: 2px; /* Height of the underline */
+    background-color: #333; /* Blue color for the underline */
+    transition: width 0.3s ease; /* Smooth underline animation */
+}
+
+/* On hover, the underline expands */
+.top-nav a:hover::after {
+    width: 100%; /* Full width on hover */
 }
