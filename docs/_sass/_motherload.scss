@@ -236,60 +236,48 @@ pre > code {
   border-bottom: 2px solid #333; /* Adds a dark line under the selected section */
 }
 
-/* Main content styling */
-.main-content {
-  flex: 1;  /* Main content takes up the remaining space */
-  padding-right: 2rem;  /* Space for the sidebar */
-}
-
-/* Remove list numbering (index) from sidebar links */
-.sidebar {
-  list-style-type: none;  /* Remove default numbering in lists */
-  padding-left: 0;  /* Remove padding for list items */
-  margin-top: 0;  /* Optional, to remove any margin at the top */
-  width: 15%;  /* Reduced width of the sidebar */
+/* Sidebar styling */
+.cv-page .sidebar {
+  position: sticky;
+  top: 0;
+  width: 15%;  /* Sidebar width */
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: transparent;  /* Make background transparent */
+  border: none; /* Remove any border */
+  box-shadow: none; /* Remove any box-shadow or extra effects */
+  z-index: 10;  /* Ensure the sidebar stays above the content */
 }
 
 /* Styling for sidebar links */
-.sidebar-link {
-  color: #777;  /* Default grey color */
+.cv-page .sidebar-link {
+  color: #333; /* Dark color for links */
   text-decoration: none;
-  font-size: 0.8rem;  /* Reduced font size for sidebar links */
+  font-size: 1rem;
   display: block;
-  padding: 0.5rem 0;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0.75rem 0;
+  margin-bottom: 1rem;
+  font-family: 'Merriweather', serif; /* Use the same font family as navbar */
+  font-weight: 400; /* Regular font weight */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Active link in sidebar */
-.sidebar-link.active {
-  color: #000;
+.cv-page .sidebar-link.active {
+  color: #0074d9; /* Active link color similar to the navbar */
   font-weight: bold;
-  background-color: #0074d9;  /* Active background color */
-  color: white;  /* White text for active link */
 }
 
-/* Sidebar link hover effect */
-.sidebar-link:hover {
-  background-color: #f0f0f0;  /* Subtle hover background */
-  color: #333;
+/* Hover effect for sidebar links */
+.cv-page .sidebar-link:hover {
+  color: #0074d9; /* Change color on hover */
 }
 
-.sidebar-link.active::before {
-  content: '';
-  display: block;
-  height: 2px;
-  background-color: #000;
-  margin-top: 0.5rem;
-}
-
-/* Responsive Sidebar */
+/* Media query for small screens */
 @media (max-width: 768px) {
-  .sidebar {
-    width: 100%;  /* Full width on smaller screens */
+  .cv-page .sidebar {
+    width: 100%;  /* Full width for smaller screens */
     padding-top: 1rem;
-  }
-
-  .sidebar-link {
-    font-size: 0.9rem;  /* Slightly larger text on mobile */
   }
 }
