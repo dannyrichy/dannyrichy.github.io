@@ -3,7 +3,7 @@ layout: resume
 title: "CV"
 ---
 
-# Education
+## Education
 
 - **KTH Royal Institute of Technology, Stockholm, Sweden**  
   _Master of Science in Machine Learning, GPA: 4.85/5.0_  
@@ -17,7 +17,7 @@ title: "CV"
 
 ---
 
-# Work Experience
+## Work Experience
 
 - **Research Visit (Internship)**  
   Inria Centre at Université Côte d’Azur, Nice, France  
@@ -61,7 +61,7 @@ title: "CV"
 
 ---
 
-# Projects
+## Projects
 
 - **Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)**  
   Analyzed the effectiveness of VAE architectures for anomaly detection in time series data. [Thesis Link](https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999)
@@ -83,6 +83,6 @@ title: "CV"
 
 ---
 
-# Skills
+## Skills
 
 Python, Java, Scala, TensorFlow, PyTorch, Keras, Apache Spark, Airflow, OpenMPI, SQL, AWS, GCP, Git, Slurm

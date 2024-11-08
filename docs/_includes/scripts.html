@@ -14,25 +14,4 @@
             }
         });
     });
-
-
-    // Function to add 'active' class to the sidebar link based on the visible section
-    window.addEventListener('scroll', function () {
-        const sections = document.querySelectorAll('section');
-        const sidebarLinks = document.querySelectorAll('.sidebar-link');
-
-        // Throttling performance with requestAnimationFrame
-        requestAnimationFrame(function () {
-            sections.forEach((section, index) => {
-                const rect = section.getBoundingClientRect();
-                const link = sidebarLinks[index];
-                if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-                    link.classList.add('active');
-                } else {
-                    link.classList.remove('active');
-                }
-            });
-        });
-    });
-
 </script>
