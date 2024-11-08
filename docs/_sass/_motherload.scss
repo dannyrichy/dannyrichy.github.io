@@ -199,7 +199,7 @@ pre > code {
     background-color: transparent; /* Transparent background */
     position: relative; /* Makes it stick at the top */
     width: 100%; /* Full width of the parent container */
-    max-width: 30rem; /* Same max-width as container */
+    max-width: 40rem; /* Same max-width as container */
     margin: 0 auto; /* Center the navbar horizontally */
     margin-bottom: 2rem; /* Add space below the navbar */
 }
@@ -236,30 +236,29 @@ pre > code {
   border-bottom: 2px solid #333; /* Adds a dark line under the selected section */
 }
 
-/* Styles specific to the CV page */
+//* Styles specific to the CV page */
 .cv-page .cv-container {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  max-width: 40rem; /* Limit max-width to 1200px (you can adjust as needed) */
+  max-width: 40rem; /* Limit max-width to 1200px */
   margin: 0 auto; /* Center the container horizontally */
-  height: 100vh;  /* Ensure it takes up the full viewport height */
   overflow: auto; /* Enable scrolling if content overflows */
+  min-height: 100vh; /* Ensure container takes full viewport height */
 }
 
 .cv-page .cv-main-content {
   flex: 1;
-  padding-left: 15%;
+  padding-left: 20%; /* Adjust this depending on sidebar width */
   padding-right: 2rem;
 }
-
 
 /* Sidebar styling */
 .cv-page .sidebar {
   position: -webkit-sticky; /* Add support for Safari */
   position: sticky; /* Sticky positioning for modern browsers */
   top: 0;  /* Aligns the top of the sidebar with the top of the page */
-  width: 15%;  /* Sidebar width */
+  width: 20%;  /* Increased width for the sidebar */
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -273,7 +272,7 @@ pre > code {
 .cv-page .sidebar-link {
   color: #333; /* Dark color for links (matches navbar) */
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.5rem;
   display: block;
   padding: 0.5rem 0;  /* Reduced padding for less space between items */
   margin-bottom: 0.5rem;  /* Reduced space between links */
@@ -300,7 +299,7 @@ pre > code {
     width: 100%;  /* Full width for smaller screens */
     padding-top: 1rem;
   }
-  .cv-page .main-content {
+  .cv-page .cv-main-content {
     padding-left: 0;  /* No space on left for smaller screens */
   }
 }
