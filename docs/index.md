@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div style="display: flex; align-items: flex-end; justify-content: space-between;">
+<div style="display: flex; align-items: flex-end; justify-content: space-between; width: 100%;">
     <h1 style="margin: 0;">Daniel Richards R</h1>
     <img src="assets/profile.jpg" alt="Banner" style="width: 100px; height: 100px;">
 </div>
