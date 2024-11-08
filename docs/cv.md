@@ -2,4 +2,4 @@
 layout: resume
 ---
 
-[profile](assets/profile.jpg)
+![profile](assets/profile.jpg)
