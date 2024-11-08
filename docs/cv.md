@@ -10,7 +10,7 @@ title: "CV"
   **2021 – 2023**  
   ***Highlighted coursework*** Advanced Deep Learning, Advanced Machine Learning, Stochastic Differential Equations
 
-#### **Indian Institute of Technology ### Madras, Chennai, India**  
+#### **Indian Institute of Technology - Madras, Chennai, India**  
   _Bachelor of Technology in Mechanical Engineering, Minor in Systems Engineering, GPA: 8.02/10.0_  
   **2014 – 2018**  
   ***Highlighted coursework*** Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis
