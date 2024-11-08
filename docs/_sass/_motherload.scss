@@ -236,36 +236,45 @@ pre > code {
   border-bottom: 2px solid #333; /* Adds a dark line under the selected section */
 }
 
-/* Sidebar styling */
+.cv-container {
+  max-width: 80rem;  /* Adjust the width to a comfortable size for CV */
+  margin: 0 auto;
+  display: flex;
+}
+
+.main-content {
+  flex: 1; /* Main content takes up the remaining space */
+  padding-right: 2rem;
+}
+
 .cv-page .sidebar {
   position: sticky;
   top: 0;
-  width: 15%;  /* Sidebar width */
+  width: 15%; /* Sidebar width */
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: transparent;  /* Make background transparent */
-  border: none; /* Remove any border */
-  box-shadow: none; /* Remove any box-shadow or extra effects */
-  z-index: 10;  /* Ensure the sidebar stays above the content */
+  background-color: transparent; /* Make background transparent */
+  border: none; /* No border */
+  box-shadow: none; /* Remove shadow */
+  z-index: 10; /* Ensure the sidebar stays above the content */
 }
 
-/* Styling for sidebar links */
 .cv-page .sidebar-link {
   color: #333; /* Dark color for links */
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1rem; /* Consistent font size */
   display: block;
   padding: 0.75rem 0;
   margin-bottom: 1rem;
-  font-family: 'Merriweather', serif; /* Use the same font family as navbar */
-  font-weight: 400; /* Regular font weight */
-  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  font-family: 'Merriweather', serif; /* Consistent font family */
+  font-weight: 400; /* Regular weight */
+  transition: color 0.3s ease;
 }
 
 /* Active link in sidebar */
 .cv-page .sidebar-link.active {
-  color: #0074d9; /* Active link color similar to the navbar */
+  color: #0074d9; /* Active link color */
   font-weight: bold;
 }
 
