@@ -198,7 +198,9 @@ pre > code {
     padding: 1rem;
     background-color: transparent; /* Transparent background */
     position: fixed; /* Makes it stick at the top */
-    width: 100%;
+    width: 100%; /* Full width of the parent container */
+    max-width: 30rem; /* Same max-width as container */
+    margin: 0 auto; /* Center the navbar horizontally */
 }
 
 /* Styling for each link */
