@@ -1,11 +1,13 @@
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const currentPath = window.location.pathname;
+    document.addEventListener("DOMContentLoaded", function () {
+        const currentPath = window.location.pathname.split("/").pop(); // Get the last part of the path
         const navLinks = document.querySelectorAll(".top-nav a");
 
         navLinks.forEach(link => {
-            // Check if the link's href matches the current path
-            if (link.getAttribute("href") === currentPath) {
+            const linkPath = link.getAttribute("href").split("/").pop(); // Get only the file name
+
+            // Add active class if linkPath matches currentPath
+            if (linkPath === currentPath || (currentPath === "" && linkPath === "index.html")) {
                 link.classList.add("active");
             } else {
                 link.classList.remove("active");
