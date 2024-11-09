@@ -3,5 +3,9 @@ layout: default
 ---
 
 {% for note in site.notes %}
-  - **[{{ note.title }}]({{ note.url }})** (Created on: {{ note.date | date: "%B %d, %Y" }})
+  <div>
+    <strong><a href="{{ note.url }}">{{ note.title }}</a></strong> 
+    <span>(Created on: {{ note.date | date: "%B %d, %Y" }})</span>
+    <p>{{ note.description }}</p>
+  </div>
 {% endfor %}
