@@ -17,7 +17,8 @@ body {
   margin: 2rem 0 5rem;
   color: #333;
   font-family: 'Merriweather', serif;
-  font-weight: 400; /* Regular weight for body text */
+  font-weight: 400;
+  /* Regular weight for body text */
 }
 
 @media (min-width: 30rem) {
@@ -27,20 +28,24 @@ body {
 }
 
 a {
-  color: #0074d9; /* From http://clrs.cc */
+  color: #0074d9;
+  /* From http://clrs.cc */
   text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
 #footer a {
-  color: #808080; /* From http://clrs.cc */
+  color: #808080;
+  /* From http://clrs.cc */
   text-decoration: none;
 }
 
-#footer a:hover, a:focus {
+#footer a:hover,
+a:focus {
   text-decoration: underline;
 }
 
@@ -49,9 +54,15 @@ small {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
-  font-weight: 700; /* Use Black 900 weight */
+  font-weight: 700;
+  /* Use Black 900 weight */
   -webkit-font-smoothing: antialiased;
   margin: 0 0 0.5rem -0.1rem;
   line-height: 1;
@@ -76,7 +87,8 @@ h1 a {
 }
 
 h2 {
-  font-weight: 700; /* Bold weight for h2 */
+  font-weight: 700;
+  /* Bold weight for h2 */
   margin-top: 2rem;
   font-size: 1.4rem;
   margin-bottom: 0.75rem;
@@ -91,32 +103,46 @@ h2 {
 }
 
 h3 {
-  font-weight: 700; /* Bold weight for h3 */
+  font-weight: 700;
+  /* Bold weight for h3 */
   margin-top: 1.5rem;
   font-size: 1.2rem;
 }
 
-h4, h5, h6 {
-  font-weight: 400; /* Bold weight for smaller headings */
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  /* Bold weight for smaller headings */
   margin-top: 1.5rem;
   font-size: 1rem;
 }
 
 /* Apply Black 900 weight for larger headings (h1, h2) */
-h1, h2 {
-  font-weight: 900; /* Black 900 weight for larger headings */
+h1,
+h2 {
+  font-weight: 900;
+  /* Black 900 weight for larger headings */
 }
 
-p, ul, ol, dl, blockquote {
+p,
+ul,
+ol,
+dl,
+blockquote {
   font-family: 'Merriweather', serif;
-  font-weight: 400; /* Regular weight for paragraph text */
-  font-size: 0.75rem; /* Slightly smaller font for normal text */
-  line-height: 1.6; /* Adjust line-height for readability */
+  font-weight: 400;
+  /* Regular weight for paragraph text */
+  font-size: 0.75rem;
+  /* Slightly smaller font for normal text */
+  line-height: 1.6;
+  /* Adjust line-height for readability */
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.5rem;
 }
 
@@ -142,7 +168,8 @@ hr {
   top: -1px;
 }
 
-.container img, .container iframe {
+.container img,
+.container iframe {
   max-width: 100%;
 }
 
@@ -157,12 +184,14 @@ table {
   border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
   padding: .25rem .5rem;
   border: 1px solid #ccc;
 }
 
-pre, code {
+pre,
+code {
   font-family: inherit;
   background-color: #eee;
 }
@@ -176,7 +205,7 @@ code {
   padding: .1rem .25rem;
 }
 
-pre > code {
+pre>code {
   padding: 0;
 }
 
@@ -188,46 +217,88 @@ pre > code {
 
 /* Top navigation styling */
 .top-nav {
-    display: flex;
-    justify-content: flex-end; /* Aligns the items to the right */
-    align-items: center;
-    padding: 1rem;
-    background-color: transparent; /* Transparent background */
-    position: relative; /* Makes it stick at the top */
-    width: 100%; /* Full width of the parent container */
-    max-width: 40rem; /* Same max-width as container */
-    margin: 0 auto; /* Center the navbar horizontally */
-    margin-bottom: 2rem; /* Add space below the navbar */
+  display: flex;
+  justify-content: flex-end;
+  /* Aligns the items to the right */
+  align-items: center;
+  padding: 1rem;
+  background-color: transparent;
+  /* Transparent background */
+  position: relative;
+  /* Makes it stick at the top */
+  width: 100%;
+  /* Full width of the parent container */
+  max-width: 40rem;
+  /* Same max-width as container */
+  margin: 0 auto;
+  /* Center the navbar horizontally */
+  margin-bottom: 2rem;
+  /* Add space below the navbar */
 }
 
 /* Styling for each link */
 .top-nav a {
-    color: #333; /* Dark color for contrast */
-    text-decoration: none;
-    margin: 0 1rem; /* Space between links */
-    font-size: 1.1rem;
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-    position: relative; /* Required for the hover underline */
+  color: #333;
+  /* Dark color for contrast */
+  text-decoration: none;
+  margin: 0 1rem;
+  /* Space between links */
+  font-size: 1.1rem;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  position: relative;
+  /* Required for the hover underline */
 }
 
 /* Hover underline effect */
 .top-nav a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Slightly below the text */
-    width: 0;
-    height: 2px; /* Height of the underline */
-    background-color: #333; /* Blue color for the underline */
-    transition: width 0.3s ease; /* Smooth underline animation */
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  /* Slightly below the text */
+  width: 0;
+  height: 2px;
+  /* Height of the underline */
+  background-color: #333;
+  /* Blue color for the underline */
+  transition: width 0.3s ease;
+  /* Smooth underline animation */
 }
 
 /* On hover, the underline expands */
 .top-nav a:hover::after {
-    width: 100%; /* Full width on hover */
+  width: 100%;
+  /* Full width on hover */
 }
 
 .top-nav a.active {
-  border-bottom: 2px solid #333; /* Adds a dark line under the selected section */
+  border-bottom: 2px solid #333;
+  /* Adds a dark line under the selected section */
+}
+
+img[alt=img1] {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+img[alt=img1] {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+  transform: rotate(-180deg);
+}
+
+img[alt=img2] {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+  transform: rotate(-90deg);
+}
+
+img[alt=img3] {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
 }

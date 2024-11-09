@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
+![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg)
+
+# Daniel Richards R.
 
 <div style="display: grid; grid-template-columns: 1fr 200px; gap: 1rem; align-items: start;">
 
   <!-- Left column: Name and About Me section -->
   <div>
-    <h1 style="margin: 0;">Daniel Richards R</h1>
     <p>
     <br>
       Ah, the blank canvas monster strikes again! HELP or wait, actually don't help! I got this.<br>
