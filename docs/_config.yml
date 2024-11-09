@@ -10,7 +10,7 @@ plugins:
 # Build settings
 markdown: kramdown
 include:
-  - notes
+  - self-notes
 exclude: ["README.md"]
 sass:
   style: compressed

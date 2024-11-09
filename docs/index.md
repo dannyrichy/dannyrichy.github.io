@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg) ![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg)
+![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg) ![img4](assets/profile.jpg) ![img5](assets/profile.jpg) ![img6](assets/profile.jpg)
 
 # Daniel Richards R.
 
