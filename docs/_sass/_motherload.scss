@@ -278,27 +278,24 @@ pre>code {
 }
 
 img[alt=img1] {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 1rem;
-}
-
-img[alt=img1] {
-  width: 200px;
-  height: 200px;
+  display: inline;
+  width: 100px;
+  height: 100px;
   margin-bottom: 1rem;
   transform: rotate(-180deg);
 }
 
 img[alt=img2] {
-  width: 200px;
-  height: 200px;
+  display: inline;
+  width: 100px;
+  height: 100px;
   margin-bottom: 1rem;
   transform: rotate(-90deg);
 }
 
 img[alt=img3] {
-  width: 200px;
-  height: 200px;
+  display: inline;
+  width: 100px;
+  height: 100px;
   margin-bottom: 1rem;
 }
