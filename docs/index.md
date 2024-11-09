@@ -1,28 +1,15 @@
 ---
 layout: default
 ---
-![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg)
+![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg) ![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg)
 
 # Daniel Richards R.
 
-<div style="display: grid; grid-template-columns: 1fr 200px; gap: 1rem; align-items: start;">
+Ah, the blank canvas monster strikes again! HELP or wait, actually don't help! I got this.
 
-  <!-- Left column: Name and About Me section -->
-  <div>
-    <p>
-    <br>
-      Ah, the blank canvas monster strikes again! HELP or wait, actually don't help! I got this.<br>
-      Right, now this site is supposed to be a personal website, but then again for what? I don't know.
-      However, over time, I hope to solve that puzzle. For now, I will try to publish some self-notes
-      that I take about ... welp this and that.
-    </p>
-  </div>
-
-  <!-- Right column: Profile photo and icons -->
-  <div style="text-align: center;">
-    <img src="assets/profile.jpg" alt="Profile Photo" style="width: 200px; height: 200px; margin-bottom: 1rem;">
-  </div>
-</div>
+Right, now this site is supposed to be a personal website, but then again for what? I don't know.
+However, over time, I hope to solve that puzzle. For now, I will try to publish some self-notes
+that I take about ... welp this and that.
 
 ---
 
@@ -30,6 +17,6 @@ layout: default
 
 - """""""""""""""""""
 - ::::::::::::::::::::
-<!-- Add more news items as needed -->
+
 
 

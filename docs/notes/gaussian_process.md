@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Gaussian Process
 ---
 
 # Gaussian Process

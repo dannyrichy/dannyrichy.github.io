@@ -7,9 +7,9 @@ This section is meant to be a personal knowledge dump for me on various topics t
 -------------
 ### Gaussian Process
 
-A gaussian process is a stochastic process such that any \$$ {X_t | t \in \mathcal{T}} $$, forms a multivariate Gaussian Distribution. \$$ \mathcal{T} $$ is any collection of time steps. [Read here](notes/gaussian_process.md)
+A gaussian process is a stochastic process such that any \$$ {X_t \| t \in \mathcal{T}} $$, forms a multivariate Gaussian Distribution. \$$ \mathcal{T} $$ is any collection of time steps. [Read here](notes/gaussian_process.md)
 
 -------------
 ### Statistical Learning Theory
 
-A gaussian process is a stochastic process such that any \$$ {X_t | t \in \mathcal{T}} $$, forms a multivariate Gaussian Distribution. \$$ \mathcal{T} $$ is any collection of time steps. [Read here](notes/sl_theory.md)
+A gaussian process is a stochastic process such that any \$$ {X_t \| t \in \mathcal{T}} $$, forms a multivariate Gaussian Distribution. \$$ \mathcal{T} $$ is any collection of time steps. [Read here](notes/sl_theory.md)
