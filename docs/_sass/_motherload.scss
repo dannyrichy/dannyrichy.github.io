@@ -282,7 +282,7 @@ img[alt=img1] {
   width: 100px;
   height: 100px;
   margin-bottom: 1rem;
-  transform: rotate(135deg);
+  transform: rotate(90deg);
 }
 
 img[alt=img2] {
@@ -290,7 +290,7 @@ img[alt=img2] {
   width: 100px;
   height: 100px;
   margin-bottom: 1rem;
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
 
 img[alt=img3] {
@@ -298,26 +298,10 @@ img[alt=img3] {
   width: 100px;
   height: 100px;
   margin-bottom: 1rem;
-  transform: rotate(-135deg);
-}
-
-img[alt=img4] {
-  display: inline;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1rem;
   transform: rotate(-90deg);
 }
 
-img[alt=img5] {
-  display: inline;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1rem;
-  transform: rotate(-45deg);
-}
-
-img[alt=img6] {
+img[alt=img4] {
   display: inline;
   width: 100px;
   height: 100px;

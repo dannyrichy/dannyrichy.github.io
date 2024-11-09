@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Gaussian Process
+date: 2024-11-09
 ---
 
 # Gaussian Process

@@ -14,3 +14,8 @@ include:
 exclude: ["README.md"]
 sass:
   style: compressed
+
+collections:
+  notes:
+    output: true # This ensures each item gets its own page
+    permalink: /notes/:name # Optional: Sets the URL structure for each note
