@@ -53,17 +53,19 @@ footer a i {
 
 /* Basic style for the anchor tag */
 a {
-  text-decoration: dotted;        /* Remove the underline */
-  color: #000;                  /* Set text color to black */
-  font-size: 18px;              /* Set font size */
-  font-family: 'Merriweather', serif; /* Use your font-family */
-  font-weight: 400;             /* Set font weight */
+  text-decoration: underline;          /* Dotted underline by default */
+  text-decoration-style: dotted;       /* Dotted underline style */
+  text-decoration-color: #000;         /* Underline color (black) */
+  color: #000;                         /* Set text color to black */
+  font-size: 18px;                     /* Set font size */
+  font-family: 'Merriweather', serif;  /* Use your font-family */
+  font-weight: 400;                    /* Set font weight */
+  text-underline-offset: 4px;          /* Add space between text and underline */
 }
 
 a:hover {              
-  text-decoration: underline;   /* Underline text on hover */
-  text-decoration-style: solid; /* Dotted underline style */
-  text-decoration-color: #000;  /* Dotted underline color (black) */
+  text-decoration-style: solid;        /* Solid underline style on hover */
+  text-underline-offset: 2px;          /* Slightly reduce space between text and underline on hover */
 }
 
 
