@@ -51,16 +51,21 @@ footer a i {
   }
 }
 
+/* Basic style for the anchor tag */
 a {
-  color: #0074d9;
-  /* From http://clrs.cc */
-  text-decoration: none;
+  text-decoration: dotted;        /* Remove the underline */
+  color: #000;                  /* Set text color to black */
+  font-size: 18px;              /* Set font size */
+  font-family: 'Merriweather', serif; /* Use your font-family */
+  font-weight: 400;             /* Set font weight */
 }
 
-a:hover,
-a:focus {
-  text-decoration: underline;
+a:hover {              
+  text-decoration: underline;   /* Underline text on hover */
+  text-decoration-style: solid; /* Dotted underline style */
+  text-decoration-color: #000;  /* Dotted underline color (black) */
 }
+
 
 #footer a {
   color: #808080;
