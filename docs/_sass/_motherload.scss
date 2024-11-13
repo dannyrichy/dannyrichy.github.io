@@ -61,7 +61,7 @@ h4,
 h5,
 h6 {
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
   /* Use Black 900 weight */
   -webkit-font-smoothing: antialiased;
   margin: 0 0 0.5rem -0.1rem;
@@ -86,13 +86,13 @@ h1 a {
   color: inherit;
 }
 
-h2 {
-  font-weight: 700;
-  /* Bold weight for h2 */
-  margin-top: 2rem;
-  font-size: 1.4rem;
-  margin-bottom: 0.75rem;
-}
+// h2 {
+//   font-weight: 700;
+//   /* Bold weight for h2 */
+//   margin-top: 2rem;
+//   font-size: 1.4rem;
+//   margin-bottom: 0.75rem;
+// }
 
 @media (min-width: 30rem) {
   h2 {
@@ -112,7 +112,7 @@ h3 {
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 700;
   /* Bold weight for smaller headings */
   margin-top: 1.5rem;
   font-size: 1rem;
@@ -133,7 +133,7 @@ blockquote {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   /* Regular weight for paragraph text */
-  font-size: 0.75rem;
+  font-size: 1rem;
   /* Slightly smaller font for normal text */
   line-height: 1.6;
   /* Adjust line-height for readability */
@@ -277,33 +277,9 @@ pre>code {
   /* Adds a dark line under the selected section */
 }
 
-img[alt=img1] {
+img[alt=profileimg] {
   display: inline;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1rem;
-  transform: rotate(90deg);
-}
-
-img[alt=img2] {
-  display: inline;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1rem;
-  transform: rotate(-180deg);
-}
-
-img[alt=img3] {
-  display: inline;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1rem;
-  transform: rotate(-90deg);
-}
-
-img[alt=img4] {
-  display: inline;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 1rem;
 }

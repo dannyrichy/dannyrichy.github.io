@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-![img1](assets/profile.jpg) ![img2](assets/profile.jpg) ![img3](assets/profile.jpg) ![img4](assets/profile.jpg)
+<div style="display: flex; align-items: flex-end;">
+  <img src="assets/profile.jpg" alt="profileimg" style="margin-right: 10px;">
+  <h1 style="margin-bottom: 0;">Daniel Richards R.</h1>
+</div>
 
-# Daniel Richards R.
+I am currently exploring the intersection of **Federated Learning** and **Green Energy** at [INRIA, France](https://www.inria.fr/fr/centre-inria-universite-cote-azur), working alongside [Dr. Giovanni Neglia](http://www-sop.inria.fr/members/Giovanni.Neglia/) and Dr. Charlotte Rodriguez. I hold an M.Sc. in **Machine Learning** from [KTH Sweden](https://www.kth.se/), and though seemingly unrelated, I also hold a B.Tech in **Mechanical Engineering** with a minor in **Systems Engineering** from [IIT Madras](https://www.iitm.ac.in/).
 
-I am currently working on investigating areas related Federated learning and Green energy at [INRIA, France](https://www.inria.fr/fr/centre-inria-universite-cote-azur) under [Dr. Giovanni Neglia](http://www-sop.inria.fr/members/Giovanni.Neglia/) and Dr. Charlotte Rodriguez. I obtained my M.Sc. degree in Machine Learning from [KTH Sweden](https://www.kth.se/), and completely unrelated to this I obtained a B.Tech degree in Mechanical Engineering with minor studies in Systems Engineering from [IIT Madras](https://www.iitm.ac.in/)
-
-I am interested in Deep learning especially under-the-hood components. Over the years I have had the opportunity to work on interesting projects which I plan on explaining on this site, lest they become victim to passage of time. Also this is my way to handle the fact that I have a memory of a goldfish (I know so selfish smh).
+My true passion lies in **Deep Learning**, particularly the intricate, "under-the-hood" mechanisms that make it tick. Throughout my journey, I've had the privilege to work on fascinating projects, which I’m eager to share here. This site serves as a way to preserve these experiences and ideas before they fade into the past—and to be honest, it also helps me keep track of them, considering I tend to forget things as quickly as a goldfish! (A bit selfish, I know, but it works!)
 
 ---
 
