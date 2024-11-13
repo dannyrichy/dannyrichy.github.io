@@ -3,7 +3,9 @@ layout: resume
 title: "CV"
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-[<i class="fa-regular fa-circle-down" style="font-size: 36px; color: #000;"></i>](assets/resume.pdf)
+<a href="assets/yourfile.extension" class="download-link">
+  <i class="fa-regular fa-circle-down" style="font-size: 36px; color: #000;"></i> Download File
+</a>
 
 ## Education
 
