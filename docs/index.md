@@ -3,7 +3,7 @@ layout: default
 ---
 <div style="display: flex; justify-content: space-between; align-items: flex-end; width: 100%;">
   <h1 style="margin-bottom: 1rem;">Daniel Richards R.</h1>
-  <img src="assets/profile.jpg" alt="profileimg" style="margin-left: 10px;">
+  <img src="assets/profile.jpg" alt="profileimg">
 </div>
 
 ---
