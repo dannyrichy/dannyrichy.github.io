@@ -19,6 +19,7 @@ body {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   /* Regular weight for body text */
+  background-color: #F0F3F1;
 }
 
 @media (min-width: 30rem) {
@@ -284,4 +285,27 @@ img[alt=profileimg] {
   height: 200px;
   margin-bottom: 1rem;
   margin-left: 100px;
+}
+
+.diagonal-highlight {
+  background-color: #F0F3F1; /* Highlight color */
+  padding: 2px 4px; /* Optional padding for readability */
+  display: inline-block; /* Needed for transform to work */
+  transform: translate(5px, 5px); /* Diagonal offset */
+  margin-bottom: 1rem;
+}
+
+.name-heading {
+  color: #333; /* Text color */
+  text-shadow: 
+        1px 1px 0px rgba(0, 0, 0, 0.9),
+        2px 2px 0px rgba(0, 0, 0, 0.9),
+        3px 3px 0px rgba(0, 0, 0, 0.9),
+        4px 4px 0px rgba(0, 0, 0, 0.9),
+        5px 5px 0px rgba(0, 0, 0, 0.9),
+        6px 6px 0px rgba(0, 0, 0, 0.9),
+        7px 7px 0px rgba(0, 0, 0, 0.9),
+        8px 8px 0px rgba(0, 0, 0, 0.9),
+        9px 9px 0px rgba(0, 0, 0, 0.9),
+        10px 10px 0px rgba(0, 0, 0, 0.9)
 }
