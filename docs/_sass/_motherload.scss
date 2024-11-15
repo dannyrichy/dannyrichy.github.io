@@ -53,11 +53,8 @@ footer a i {
 
 /* Basic style for the anchor tag */
 a {
-  text-decoration: underline;          /* Dotted underline by default */
-  text-decoration-style: dotted;       /* Dotted underline style */
-  text-decoration-color: #000;         /* Underline color (black) */
-  color: #000;                         /* Set text color to black */
-  font-size: 18px;                     /* Set font size */
+  text-decoration: none;               /* No underline by default */
+  color: #2323ff;                         /* Set text color to blue */
   font-family: 'Merriweather', serif;  /* Use your font-family */
   font-weight: 400;                    /* Set font weight */
   text-underline-offset: 4px;          /* Add space between text and underline */

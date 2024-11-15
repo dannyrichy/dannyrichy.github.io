@@ -46,9 +46,7 @@ title: "CV"
 #### **Summer Worker**
   Scania AB, Stockholm, Sweden  
   _Jun 2022 – Aug 2022_  
-  - Developed an MLP model for identifying faulty components by leveraging diagnostic trouble codes (DTC).
-
-  - Created models for fault detection in components based on text and diagnostic trouble codes.
+  Developed an MLP model for identifying faulty components by leveraging diagnostic trouble codes (DTC). Created models for fault detection in components based on text and diagnostic trouble codes.
 
 #### **Data Scientist**
   Gyan Data, Chennai, India  
@@ -65,22 +63,40 @@ title: "CV"
 ## Projects
 
 #### **Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)**  
-  Analyzed the effectiveness of VAE architectures for anomaly detection in time series data. [Thesis Link](https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999)
+  Analyzed the effectiveness of VAE architectures for anomaly detection in time series data.  
+  <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; margin: 0 15px; text-decoration: none;">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
+  </a>
 
 #### **Shenanigans with Learnt Representations of Music Taggers**  
-  Evaluated the GTZAN dataset using music taggers and examined genre classification accuracy. [Project Link](https://github.com/Adhithyan8/musical-embeddings)
+  Evaluated the GTZAN dataset using music taggers and examined genre classification accuracy.  
+  <a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; margin: 0 15px; text-decoration: none;">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
+  </a>
 
 #### **Git Bi-sect: Dissecting Git Re-basin Paper**  
-  Replicated the Git Re-basin paper and investigated Linear Mode Connectivity in deep learning models. [Project Link](https://github.com/dannyrichy/git-bisect)
+  Replicated the Git Re-basin paper and investigated Linear Mode Connectivity in deep learning models.  
+  <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; margin: 0 15px; text-decoration: none;">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
+  </a>
 
 #### **Deep Learning Model Extraction Attack**  
-  Analyzed model extraction attacks on VGG and ResNet models, assessing vulnerabilities through privacy attacks. [Project Link](https://github.com/dannyrichy/dl-model-extraction)
+  Analyzed model extraction attacks on VGG and ResNet models, assessing vulnerabilities through privacy attacks.  
+  <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; margin: 0 15px; text-decoration: none;">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
+  </a>
 
 #### **Network Representation Learning**  
-  Conducted a comparative study of network representation learning algorithms for node classification. [Project Link](https://github.com/dannyrichy/graph-ml-project)
+  Conducted a comparative study of network representation learning algorithms for node classification.  
+  <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; margin: 0 15px; text-decoration: none;">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
+  </a>
 
 #### **Graphons: Efficient Graph Embeddings**  
-  Compared Graphons (Random Graph Model) with Graph2Vec for graph-based downstream tasks. [Project Link](https://github.com/dannyrichy/graphon)
+  Compared Graphons (Random Graph Model) with Graph2Vec for graph-based downstream tasks.  
+  <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; margin: 0 15px; text-decoration: none;">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
+  </a>
 
 ---
 
