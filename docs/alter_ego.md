@@ -10,6 +10,8 @@ layout: niendefault
 </div>
 # dD4AaaahhhNNNNNNNNNNNNNNNNY bWOi
 Need to get pure chaos out, <img src="https://media.giphy.com/media/CS1EfWWymZPeo/giphy.gif" width="10%" /><img src="https://media.giphy.com/media/CS1EfWWymZPeo/giphy.gif" width="5%" /><img src="https://media.giphy.com/media/CS1EfWWymZPeo/giphy.gif" width="2%" />, coz sometimes there are hidden gems 💎🗑️💎💎💎💎🗑️💎 <img src="assets/profile_blur.jpg" width="5%" height="5%">
-<img src="assets/profile_blur.jpg" width="15%" height="15%"><img src="assets/profile_blur.jpg" width="15%" height="15%"><img src="assets/profile_blur.jpg" width="15%" height="15%"><img src="assets/profile_blur.jpg" width="15%" height="15%">
+
+<img src="assets/profile_blur.jpg" width="15%" height="15%"><img src="assets/profile_blur.jpg" width="15%" height="15%">
+<img src="assets/profile_blur.jpg" width="15%" height="15%"><img src="assets/profile_blur.jpg" width="10%" height="10%">
 
 

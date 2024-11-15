@@ -8,6 +8,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="css/main.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+    .dispenser {
+      margin: 0 auto;
+      padding: 0 1rem;
+      font-family: 'Geist Mono', monospace;
+      /* This applies the font to everything inside the div */
+    }
+
+    /* Target only headings inside the .dispenser class */
+    .dispenser h1 {
+      font-weight: 900;
+      /* Boldest for h1 */
+    }
+
+    .dispenser h2 {
+      font-weight: 700;
+      /* Semi-bold for h2 */
+    }
+
+    .dispenser h3 {
+      font-weight: 500;
+      /* Medium for h3 */
+    }
+
+    .dispenser h4 {
+      font-weight: 300;
+      /* Light for h4 */
+    }
+
+    .dispenser h5 {
+      font-weight: 200;
+      /* Lighter for h5 */
+    }
+
+    .dispenser h6 {
+      font-weight: 100;
+      /* Lightest for h6 */
+    }
+
+    /* Paragraphs and other elements will keep the default font weight */
+    .dispenser p {
+      font-weight: 400;
+      /* Normal weight for paragraphs */
+    }
+  </style>
   {% include head.html %}
 </head>
 
@@ -18,4 +65,5 @@
   {% include scripts.html %}
 </body>
 {% include footer.html %}
+
 </html>

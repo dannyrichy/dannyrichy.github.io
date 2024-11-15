@@ -1,7 +1,6 @@
 # Site settings
-title: Daniel Richards
-tag_text: Biscuit
-description: Personal website to showcase whatever (I promise to keep it **sfw**) 
+title: Daniel Richards R
+description: Personal website
 url:  "https://dannyrichy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
@@ -9,8 +8,6 @@ plugins:
 
 # Build settings
 markdown: kramdown
-include:
-  - self-notes
 exclude: ["README.md"]
 sass:
   style: compressed
