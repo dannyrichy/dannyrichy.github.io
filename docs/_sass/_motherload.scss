@@ -306,15 +306,6 @@ pre>code {
   /* Adds a dark line under the selected section */
 }
 
-/* Styling for the GIF */
-.top-nav img {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  width: 40px; /* Adjust size of the GIF */
-  height: auto;
-  margin-right: 1rem; /* Add space between the GIF and links */
-}
-
 img[alt=profileimg] {
   display: inline;
   width: 200px;
