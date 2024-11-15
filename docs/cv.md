@@ -65,7 +65,7 @@ title: "CV"
 #### **Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)**  
   Analyzed the effectiveness of VAE architectures for anomaly detection in time series data.  
   <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; margin: 0 15px; text-decoration: none;">
-        <i class="fab fa-github" style="font-size: 24px;"></i>
+        <i class="fab fa-file-alt" style="font-size: 24px;"></i>
   </a>
 
 #### **Shenanigans with Learnt Representations of Music Taggers**  
