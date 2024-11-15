@@ -8,6 +8,8 @@ plugins:
 
 # Build settings
 markdown: kramdown
+include:
+  - self-notes
 exclude: ["README.md"]
 sass:
   style: compressed
