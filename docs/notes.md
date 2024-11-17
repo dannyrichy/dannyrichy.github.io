@@ -2,6 +2,7 @@
 layout: default
 ---
 
+## Academics
 {% for note in site.notes %}
   <div>
     <strong><a href="{{ note.url }}">{{ note.title }}</a></strong> 
