@@ -5,7 +5,7 @@ category: "Prob thingies"
 ---
 ## Dirichlet distribution
 
-Date: 9/11/2024
+Date: 18/11/2024
 
 #### Boring definition
 
