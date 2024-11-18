@@ -28,11 +28,6 @@ title: "CV"
   _Sep 2024 – Present_  
   Work on topics related to Green Federated Learning under the supervision of *Prof. Dr. Giovanni Neglia*.
 
-#### **Thesis Worker**
-  Scania AB, Stockholm, Sweden  
-  _Jan 2023 – Nov 2023_  
-  Conducted my master’s thesis work in collaboration with Scania AB, exploring deep learning architectures for time series anomaly detection.
-
 #### **Research Engineer**
   Division of Geoinformatics, KTH, Stockholm, Sweden  
   _Jun 2023 – Jul 2023_  
@@ -43,12 +38,14 @@ title: "CV"
   _Nov 2021 – May 2023_  
   Assisted in tutorials, graded assignments, and prepared course materials for Advanced Machine Learning, Artificial Intelligence, and Search Engines courses.
 
-#### **Summer Worker**
-  Scania AB, Stockholm, Sweden  
-  _Jun 2022 – Aug 2022_  
-  Developed an **MLP model** for identifying faulty components by leveraging diagnostic trouble codes (DTC).
+#### Scania Student Intro Program
+  Scania AB, Stockholm, Sweden
+  _Jun 2022 – Nov 2023_
+  Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies.
+  **Thesis Worker** Probed learnt representation of *State-of-the-art* Deep learning models for Time Series anomaly detection usecases. 
+  **Summer Worker** Developed an **MLP model** during the summer program to identify faulty components by leveraging diagnostic trouble codes (**DTC**).
 
-#### **Data Scientist**
+#### Data Scientist
   Gyan Data, Chennai, India  
   _Sep 2019 – Jun 2021_  
   **Smart Pill Manufacturing - Pfizer**: Utilized **KNN** to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using **SVR**; Implemented an **IPython** notebook-based and **Tkinter** tool. 
