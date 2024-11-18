@@ -357,7 +357,6 @@ img[alt=profileimg] {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
@@ -383,10 +382,14 @@ img[alt=profileimg] {
 /* Note link styling */
 .note-link {
   text-decoration: none;
-  color: #007acc;
+  color: #2323ff;
   transition: color 0.3s;
 }
 
 .note-link:hover {
-  color: #005f99;
+  color: #2323ff;
+  text-decoration-style: solid;
+  /* Solid underline style on hover */
+  text-underline-offset: 2px;
+  /* Slightly reduce space between text and underline on hover */
 }
