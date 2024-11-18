@@ -10,7 +10,7 @@ layout: default
 {% for note in category.items %}
 <div>
   <strong><a href="{{ note.url }}">{{ note.title }}</a></strong>
-  <span style="color: grey;">({{ note.date | date: "%B %d, %Y" }})</span>
+  <span style="color: grey; font-size: xx-small;">{{ note.date | date: "%b %d, %Y" }}</span>
   <p>{{ note.description }}</p>
 </div>
 {% endfor %}
