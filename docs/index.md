@@ -13,6 +13,9 @@ layout: default
   <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>.
 </p>
 
+<p>In a previous role, I worked as a <em>Business Analytics Consultant</em> and <em>Data Miner</em> for a startup in the recommendation engine space. I also served as a <em>Consultant Data Scientist</em>, focusing on industrial applications. These experiences helped shape my interests and clarify what is important to me.
+</p>
+
 <p style="text-align: justify;">
   I am interested in the optimization aspect of <strong>Deep Learning</strong>, and "under-the-hood" mechanisms that power them. 
   Throughout my journey, I've had the privilege to work on interesting projects, which I plan on explaining here. 
