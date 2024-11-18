@@ -2,16 +2,18 @@
 layout: default
 ---
 
-{% assign notes_by_category = site.notes | group_by: "category" %}
-{% for category in notes_by_category %}
-<article class="category">
-  <h3>{{ category.name }}</h3>
-  <ul class="notes-list">
-    {% for note in category.items %}
-    <li>
-      <a href="{{ note.url }}">{{ note.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</article>
-{% endfor %}
+<section class="notes-section">
+  {% assign notes_by_category = site.notes | group_by: "category" %}
+  {% for category in notes_by_category %}
+    <article class="category">
+      <h3 class="category-title">{{ category.name | escape }}</h3>
+      <ul class="notes-list">
+        {% for note in category.items %}
+          <li class="note-item">
+            <a href="{{ note.url | relative_url }}" class="note-link">{{ note.title | escape }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </article>
+  {% endfor %}
+</section>

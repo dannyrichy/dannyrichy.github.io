@@ -14,14 +14,16 @@ html {
 }
 
 body {
-  margin: 2rem 0 5rem; /* Space at the bottom for footer */
+  margin: 2rem 0 5rem;
+  /* Space at the bottom for footer */
   color: #333;
   font-family: 'Merriweather', serif;
   font-weight: 400;
   /* Regular weight for body text */
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures body takes full height of the viewport */
+  min-height: 100vh;
+  /* Ensures body takes full height of the viewport */
 }
 
 /* Ensure footer stays at the bottom */
@@ -30,8 +32,10 @@ footer {
   padding: 20px;
   color: #fff;
   max-width: 40rem;
-  margin: 0 auto; /* Center footer */
-  margin-top: auto; /* Push footer to the bottom */
+  margin: 0 auto;
+  /* Center footer */
+  margin-top: auto;
+  /* Push footer to the bottom */
 }
 
 footer a {
@@ -46,22 +50,30 @@ footer a i {
 
 @media (min-width: 30rem) {
   body {
-    margin-top: 1rem; /* Adjust top margin for larger screens */
+    margin-top: 1rem;
+    /* Adjust top margin for larger screens */
   }
 }
 
 /* Basic style for the anchor tag */
 a {
-  text-decoration: none;               /* No underline by default */
-  color: #2323ff;                         /* Set text color to blue */
-  font-family: 'Merriweather', serif;  /* Use your font-family */
-  font-weight: 400;                    /* Set font weight */
-  text-underline-offset: 4px;          /* Add space between text and underline */
+  text-decoration: none;
+  /* No underline by default */
+  color: #2323ff;
+  /* Set text color to blue */
+  font-family: 'Merriweather', serif;
+  /* Use your font-family */
+  font-weight: 400;
+  /* Set font weight */
+  text-underline-offset: 4px;
+  /* Add space between text and underline */
 }
 
-a:hover {              
-  text-decoration-style: solid;        /* Solid underline style on hover */
-  text-underline-offset: 2px;          /* Slightly reduce space between text and underline on hover */
+a:hover {
+  text-decoration-style: solid;
+  /* Solid underline style on hover */
+  text-underline-offset: 2px;
+  /* Slightly reduce space between text and underline on hover */
 }
 
 
@@ -312,10 +324,69 @@ img[alt=profileimg] {
 }
 
 .download-link {
-  text-decoration: none; /* Remove the default underline */
-  border-bottom: 2px dotted #000; /* Add a dotted underline */
+  text-decoration: none;
+  /* Remove the default underline */
+  border-bottom: 2px dotted #000;
+  /* Add a dotted underline */
 }
 
 .download-link:hover {
-  border-bottom: 2px dotted #333; /* Darker dotted underline on hover */
+  border-bottom: 2px dotted #333;
+  /* Darker dotted underline on hover */
+}
+
+/* Container styling for the notes section */
+.notes-section {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows items to wrap onto the next line */
+  gap: 1rem;
+  /* Adds spacing between items */
+  justify-content: flex-start;
+  /* Align items to the left */
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+/* Individual category card styling */
+.category {
+  flex: 1 1 300px;
+  /* Flexible width with a minimum of 300px */
+  max-width: 400px;
+  /* Optional: set a maximum width */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Category title styling */
+.category-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* List of notes */
+.notes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual note item */
+.note-item {
+  margin-bottom: 0.5rem;
+}
+
+/* Note link styling */
+.note-link {
+  text-decoration: none;
+  color: #007acc;
+  transition: color 0.3s;
+}
+
+.note-link:hover {
+  color: #005f99;
 }
