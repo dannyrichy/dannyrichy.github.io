@@ -12,12 +12,12 @@ title: "CV"
 #### **KTH Royal Institute of Technology, Stockholm, Sweden**  
   _Master of Science in Machine Learning, GPA: 4.85/5.0_  
   **2021 – 2023**  
-  ***Highlighted coursework*** Advanced Deep Learning, Advanced Machine Learning, Stochastic Differential Equations
+  ***Highlighted coursework*** *Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML*
 
 #### **Indian Institute of Technology - Madras, Chennai, India**  
   _Bachelor of Technology in Mechanical Engineering, Minor in Systems Engineering, GPA: 8.02/10.0_  
   **2014 – 2018**  
-  ***Highlighted coursework*** Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis
+  ***Highlighted coursework*** *Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis*
 
 ---
 
@@ -26,17 +26,17 @@ title: "CV"
 #### **Research Visit (Internship)**
   Inria Centre at Université Côte d’Azur, Nice, France  
   _Sep 2024 – Present_  
-  Working on topics related to Green Federated Learning under the supervision of Prof. Dr. Giovanni Neglia.
+  Work on topics related to Green Federated Learning under the supervision of *Prof. Dr. Giovanni Neglia*.
 
 #### **Thesis Worker**
   Scania AB, Stockholm, Sweden  
   _Jan 2023 – Nov 2023_  
-  Conducted my master’s thesis work in collaboration with Scania AB, exploring deep learning architectures for time series anomaly detection and effective compression techniques.
+  Conducted my master’s thesis work in collaboration with Scania AB, exploring deep learning architectures for time series anomaly detection.
 
 #### **Research Engineer**
   Division of Geoinformatics, KTH, Stockholm, Sweden  
   _Jun 2023 – Jul 2023_  
-  Expanded the transformer-based wildfire detection model trained on satellite images to cover new geographic regions.
+  Tweaked and expanded the transformer-based wildfire detection model (Y. Zhao et al. (2023)) trained on satellite images (VIIRS) to encompass new geographic regions.
 
 #### **Teaching Assistant**
   KTH, Stockholm, Sweden  
@@ -46,49 +46,50 @@ title: "CV"
 #### **Summer Worker**
   Scania AB, Stockholm, Sweden  
   _Jun 2022 – Aug 2022_  
-  Developed an MLP model for identifying faulty components by leveraging diagnostic trouble codes (DTC). Created models for fault detection in components based on text and diagnostic trouble codes.
+  Developed an **MLP model** for identifying faulty components by leveraging diagnostic trouble codes (DTC).
 
 #### **Data Scientist**
   Gyan Data, Chennai, India  
   _Sep 2019 – Jun 2021_  
-  Worked on projects for Pfizer and VOLTAS, developing predictive models for manufacturing and industrial HVAC monitoring.
+  **Smart Pill Manufacturing - Pfizer**: Utilized **KNN** to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using **SVR**; Implemented an **IPython** notebook-based and **Tkinter** tool. 
+  **HVAC Fault Detection system - VOLTAS**: Developed **Logistic Regression** and R**ule-based system**; Detected change points using **L1-trend filter**; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India.
 
 #### **Business Analytics Consultant**
   Crayon Data, Chennai, India  
   _Jun 2018 – Sep 2019_  
-  Developed recommendation engines and performed entity resolution to improve scalability for large datasets.
+  Implemented **Customer demographic based clustering** to extend recommendations increasing customer coverage to **100 %** from **30 %**; Developed tunable recommender engine for periodic and ad-hoc business opportunities. Utilized a combination of **n-gram** and **Cologne phonetics** algorithms for efficient entity resolution. Achieved an impressive reduction ratio of **7000:1**. Utilized *Apache Spark* to improve the scalability of the recommender engine to process **7M** customer transaction records, up from **300K**
 
 ---
 
 ## Projects
 
 #### **Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)**  
-  Analyzed the effectiveness of VAE architectures for anomaly detection in time series data. <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; text-decoration: none;">
+  Critically evaluated the need for deep learning models using VAE architectures to detect anomalies in time series data; brought out the need for better benchmark datasets. Investigated the effectiveness of the "point-adjusted" metric used by the research community; highlighted the need for a stable metric to help champion deep learning models. <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; text-decoration: none;">
         <i class="fa-regular fa-file" style=" vertical-align: middle;"></i>
   </a>
 
 #### **Shenanigans with Learnt Representations of Music Taggers**  
-  Evaluated the GTZAN dataset using music taggers and examined genre classification accuracy. <a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;">
+  Inspected the quality of the GTZAN dataset (public dataset for music genre recognition) using learned representations from multiple deep-learning-based music taggers. Evaluated the clusterability of the learned representations using KNN and GMM for genre classification; Auditorily inspected the generalisability of these music taggers using out-of-distribution data like non-Western music. <a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;">
         <i class="fab fa-github" style=" vertical-align: middle;"></i>
   </a>
 
 #### **Git Bi-sect: Dissecting Git Re-basin Paper**  
-  Replicated the Git Re-basin paper and investigated Linear Mode Connectivity in deep learning models. <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;">
+  Reproduced the "Git Re-basin" paper (Ainsworth et al.), verifying low loss barrier between deep learning models after removing permutation symmetries; conducted an in-depth analysis to explore the evolution of Linear Mode Connectivity as training progresses; discovered the importance of hyper-parameters on finding permutations; negated claims of methodology not working on MNIST. <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;">
         <i class="fab fa-github" style=" vertical-align: middle;"></i>
   </a>
 
 #### **Deep Learning Model Extraction Attack**  
-  Analyzed model extraction attacks on VGG and ResNet models, assessing vulnerabilities through privacy attacks. <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;">
+  Assessed model extraction attacks on VGG and ResNet models. Designed and implemented an algorithm to identify a core set; investigated the number of samples needed to extract the model. Executed privacy attacks on the extracted model to assess the vulnerability of the victim model. <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;">
         <i class="fab fa-github" style=" vertical-align: middle;"></i>
   </a>
 
 #### **Network Representation Learning**  
-  Conducted a comparative study of network representation learning algorithms for node classification. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;">
+  Performed a comparative study of unsupervised network representation learning algorithms like LINE, NetMF, Node2vec, Deepwalk, and GraphSage for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;">
         <i class="fab fa-github" style=" vertical-align: middle;"></i>
   </a>
 
 #### **Graphons: Efficient Graph Embeddings**  
-  Compared Graphons (Random Graph Model) with Graph2Vec for graph-based downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;">
+  CExplored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;">
         <i class="fab fa-github" style=" vertical-align: middle;"></i>
   </a>
 
