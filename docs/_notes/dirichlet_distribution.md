@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Dirichlet distribution
-date: 2024-11-18
-description: "A stochastic process which can be used to model distribution of functions"
 category: "Prob thingies"
 ---
 ## Dirichlet distribution
