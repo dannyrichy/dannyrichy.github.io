@@ -9,12 +9,12 @@ title: "CV"
 
 ## Education
 
-#### **KTH Royal Institute of Technology, Stockholm, Sweden**  
+#### KTH Royal Institute of Technology, Stockholm, Sweden  
   _Master of Science in Machine Learning, GPA: 4.85/5.0_  
   **2021 – 2023**  
   ***Highlighted coursework*** *Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML*
 
-#### **Indian Institute of Technology - Madras, Chennai, India**  
+#### Indian Institute of Technology - Madras, Chennai, India  
   _Bachelor of Technology in Mechanical Engineering, Minor in Systems Engineering, GPA: 8.02/10.0_  
   **2014 – 2018**  
   ***Highlighted coursework*** *Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis*
@@ -23,17 +23,17 @@ title: "CV"
 
 ## Work Experience
 
-#### **Research Visit (Internship)**
+#### Research Visit (Internship)
   Inria Centre at Université Côte d’Azur, Nice, France  
   _Sep 2024 – Present_  
   Work on topics related to Green Federated Learning under the supervision of *Prof. Dr. Giovanni Neglia*.
 
-#### **Research Engineer**
+#### Research Engineer
   Division of Geoinformatics, KTH, Stockholm, Sweden  
   _Jun 2023 – Jul 2023_  
   Tweaked and expanded the transformer-based wildfire detection model (Y. Zhao et al. (2023)) trained on satellite images (VIIRS) to encompass new geographic regions.
 
-#### **Teaching Assistant**
+#### Teaching Assistant
   KTH, Stockholm, Sweden  
   _Nov 2021 – May 2023_  
   Assisted in tutorials, graded assignments, and prepared course materials for Advanced Machine Learning, Artificial Intelligence, and Search Engines courses.
@@ -51,7 +51,7 @@ title: "CV"
   **Smart Pill Manufacturing - Pfizer**: Utilized **KNN** to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using **SVR**; Implemented an **IPython** notebook-based and **Tkinter** tool. 
   **HVAC Fault Detection system - VOLTAS**: Developed **Logistic Regression** and R**ule-based system**; Detected change points using **L1-trend filter**; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India.
 
-#### **Business Analytics Consultant**
+#### Business Analytics Consultant
   Crayon Data, Chennai, India  
   _Jun 2018 – Sep 2019_  
   Implemented **Customer demographic based clustering** to extend recommendations increasing customer coverage to **100 %** from **30 %**; Developed tunable recommender engine for periodic and ad-hoc business opportunities. Utilized a combination of **n-gram** and **Cologne phonetics** algorithms for efficient entity resolution. Achieved an impressive reduction ratio of **7000:1**. Utilized *Apache Spark* to improve the scalability of the recommender engine to process **7M** customer transaction records, up from **300K**
@@ -60,35 +60,23 @@ title: "CV"
 
 ## Projects
 
-#### **Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)**  
-  Critically evaluated the need for deep learning models using VAE architectures to detect anomalies in time series data; brought out the need for better benchmark datasets. Investigated the effectiveness of the "point-adjusted" metric used by the research community; highlighted the need for a stable metric to help champion deep learning models. <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; text-decoration: none;">
-        <i class="fa-regular fa-file" style=" vertical-align: middle;"></i>
-  </a>
+#### Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)  
+  Critically evaluated the need for deep learning models using VAE architectures to detect anomalies in time series data; brought out the need for better benchmark datasets. Investigated the effectiveness of the "point-adjusted" metric used by the research community; highlighted the need for a stable metric to help champion deep learning models. <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; text-decoration: none;"><i class="fa-regular fa-file" style=" vertical-align: middle;"></i></a>
 
-#### **Shenanigans with Learnt Representations of Music Taggers**  
-  Inspected the quality of the GTZAN dataset (public dataset for music genre recognition) using learned representations from multiple deep-learning-based music taggers. Evaluated the clusterability of the learned representations using KNN and GMM for genre classification; Auditorily inspected the generalisability of these music taggers using out-of-distribution data like non-Western music. <a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;">
-        <i class="fab fa-github" style=" vertical-align: middle;"></i>
-  </a>
+#### Shenanigans with Learnt Representations of Music Taggers  
+  Inspected the quality of the GTZAN dataset (public dataset for music genre recognition) using learned representations from multiple deep-learning-based music taggers. Evaluated the clusterability of the learned representations using KNN and GMM for genre classification; Auditorily inspected the generalisability of these music taggers using out-of-distribution data like non-Western music. <a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
-#### **Git Bi-sect: Dissecting Git Re-basin Paper**  
-  Reproduced the "Git Re-basin" paper (Ainsworth et al.), verifying low loss barrier between deep learning models after removing permutation symmetries; conducted an in-depth analysis to explore the evolution of Linear Mode Connectivity as training progresses; discovered the importance of hyper-parameters on finding permutations; negated claims of methodology not working on MNIST. <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;">
-        <i class="fab fa-github" style=" vertical-align: middle;"></i>
-  </a>
+#### Git Bi-sect: Dissecting Git Re-basin Paper  
+  Reproduced the "Git Re-basin" paper (Ainsworth et al.), verifying low loss barrier between deep learning models after removing permutation symmetries; conducted an in-depth analysis to explore the evolution of Linear Mode Connectivity as training progresses; discovered the importance of hyper-parameters on finding permutations; negated claims of methodology not working on MNIST. <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
-#### **Deep Learning Model Extraction Attack**  
-  Assessed model extraction attacks on VGG and ResNet models. Designed and implemented an algorithm to identify a core set; investigated the number of samples needed to extract the model. Executed privacy attacks on the extracted model to assess the vulnerability of the victim model. <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;">
-        <i class="fab fa-github" style=" vertical-align: middle;"></i>
-  </a>
+#### Deep Learning Model Extraction Attack  
+  Assessed model extraction attacks on VGG and ResNet models. Designed and implemented an algorithm to identify a core set; investigated the number of samples needed to extract the model. Executed privacy attacks on the extracted model to assess the vulnerability of the victim model. <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
-#### **Network Representation Learning**  
-  Performed a comparative study of unsupervised network representation learning algorithms like LINE, NetMF, Node2vec, Deepwalk, and GraphSage for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;">
-        <i class="fab fa-github" style=" vertical-align: middle;"></i>
-  </a>
+#### Network Representation Learning  
+  Performed a comparative study of unsupervised network representation learning algorithms like LINE, NetMF, Node2vec, Deepwalk, and GraphSage for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
-#### **Graphons: Efficient Graph Embeddings**  
-  CExplored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;">
-        <i class="fab fa-github" style=" vertical-align: middle;"></i>
-  </a>
+#### Graphons: Efficient Graph Embeddings  
+  Explored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
 ---
 
