@@ -16,8 +16,9 @@ A dirichlet distribution is a multivariate generalisation of [beta distribution]
 
 #### Density function:
 The **probability density function** is given by
+
 $$ 
-\text{Dir}(x;\mathbf{\alpha}) = \frac{1}{B(\mathbf{\alpha})} \Pi_{i=1}^{n} x_i^{\alpha_i-1}
+\text{Dir}(x;\mathbf{\alpha}) = \frac{1}{B(\mathbf{\alpha})} \Pi_{i=1}^{n} x_i^{\alpha_i-1} \\
 \text{where} B(\mathbf{\alpha}) = \frac{\Pi_{i=1}^{n}\Gamma(\alpha_i)}{\Gamma(\Sigma_{i=1}^{n} \alpha_i)}
 $$
 ---
