@@ -20,13 +20,13 @@ To play with each $$ \alpha_i $$ [Click here](https://observablehq.com/@herbps10
 The **probability density function** is given by
 
 $$ 
-\text{Dir}(x;\mathbf{\alpha}) &=& \frac{1}{B(\mathbf{\alpha})} \Pi_{i=1}^{n} x_i^{\alpha_i-1} \\
-\text{where} B(\mathbf{\alpha}) &=& \frac{\Pi_{i=1}^{n}\Gamma(\alpha_i)}{\Gamma(\Sigma_{i=1}^{n} \alpha_i)}
+\text{Dir}(x;\mathbf{\alpha}) = \frac{1}{B(\mathbf{\alpha})} \Pi_{i=1}^{n} x_i^{\alpha_i-1} \\
+\text{where} B(\mathbf{\alpha}) = \frac{\Pi_{i=1}^{n}\Gamma(\alpha_i)}{\Gamma(\Sigma_{i=1}^{n} \alpha_i)}
 $$
 
 #### Use cases
 
-Using **Dirichlet distribution** as means to sample a probability values for categorical distribution allows one to control heterogeneity. Fo instance having constant vector $$ \mathbf{\alpha} \approx 0 $$ would give highly heterogeneous sample as compared to $$\mathbf{\alpha} \approx 10^6 $$. 🍳   
+Using **Dirichlet distribution** as means to sample a probability values for categorical distribution allows one to control heterogeneity. Fo instance having constant vector $$ \mathbf{\alpha} \approx 0 $$ would give highly heterogeneous sample as compared to $$ \mathbf{\alpha} \approx 10^6 $$. 🍳   
 ---
 ### References
 - [https://stephens999.github.io/fiveMinuteStats/dirichlet.html](https://stephens999.github.io/fiveMinuteStats/dirichlet.html)
