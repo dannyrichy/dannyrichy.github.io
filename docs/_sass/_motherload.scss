@@ -335,65 +335,6 @@ img[alt=profileimg] {
   /* Darker dotted underline on hover */
 }
 
-/* Container styling for the notes section */
-.notes-section {
-  display: flex;
-  flex-wrap: wrap;
-  /* Allows items to wrap onto the next line */
-  gap: 1rem;
-  /* Adds spacing between items */
-  justify-content: flex-start;
-  /* Align items to the left */
-  padding: 1rem;
-  margin: 0 auto;
-}
-
-/* Individual category card styling */
-.category {
-  flex: 1 1 300px;
-  /* Flexible width with a minimum of 300px */
-  max-width: 400px;
-  /* Optional: set a maximum width */
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  background-color: #fff;
-}
-
-/* Category title styling */
-.category-title {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-/* List of notes */
-.notes-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Individual note item */
-.note-item {
-  margin-bottom: 0.5rem;
-}
-
-/* Note link styling */
-.note-link {
-  text-decoration: none;
-  color: #2323ff;
-  transition: color 0.3s;
-}
-
-.note-link:hover {
-  color: #2323ff;
-  text-decoration-style: solid;
-  /* Solid underline style on hover */
-  text-underline-offset: 2px;
-  /* Slightly reduce space between text and underline on hover */
-}
-
 .mjx-chtml {
   font-size: 0.8rem; /* Adjust to fit the surrounding text */
 }

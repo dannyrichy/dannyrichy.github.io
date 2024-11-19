@@ -3,7 +3,7 @@ layout: default
 title: "CV"
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<a href="assets/resume.pdf" download>
+<a href="assets/resume.pdf" download class="download-link">
   <i class="fa-regular fa-circle-down" style="color: #000;"></i> Download
 </a>
 
