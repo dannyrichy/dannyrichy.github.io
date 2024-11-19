@@ -7,7 +7,10 @@ category: "Prob thingies"
 
 Date: 19/11/2024
 
-![brownian_motion](https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/2D_Random_Walk_400x400.ogv/2D_Random_Walk_400x400.ogv.360p.vp9.webm)
+<video controls>
+  <source src="https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/2D_Random_Walk_400x400.ogv/2D_Random_Walk_400x400.ogv.360p.vp9.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 #### Whazzat!
 
