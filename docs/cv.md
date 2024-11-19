@@ -49,7 +49,7 @@ title: "CV"
   Gyan Data, Chennai, India  
   _Sep 2019 – Jun 2021_  
   **Smart Pill Manufacturing - Pfizer**: Utilized **KNN** to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using **SVR**; Implemented an **IPython** notebook-based and **Tkinter** tool. 
-  **HVAC Fault Detection system - VOLTAS**: Developed **Logistic Regression** and R**ule-based system**; Detected change points using **L1-trend filter**; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India.
+  **HVAC Fault Detection system - VOLTAS**: Developed **Logistic Regression** and **Rule-based system**; Detected change points using **L1-trend filter**; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India.
 
 #### Business Analytics Consultant
   Crayon Data, Chennai, India  
@@ -73,7 +73,7 @@ title: "CV"
   Assessed model extraction attacks on VGG and ResNet models. Designed and implemented an algorithm to identify a core set; investigated the number of samples needed to extract the model. Executed privacy attacks on the extracted model to assess the vulnerability of the victim model. <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
 #### Network Representation Learning  
-  Performed a comparative study of unsupervised network representation learning algorithms like LINE, NetMF, Node2vec, Deepwalk, and GraphSage for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
+  Performed a comparative study of unsupervised network representation learning algorithms like [LINE](/notes/LINE.html), [NetMF](/notes/netmf.html), [Node2vec](/notes/node2vec.html), [Deepwalk](/notes.deepwalk.html), and [GraphSage](/notes/graphsage.html) for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
 #### Graphons: Efficient Graph Embeddings  
   Explored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
