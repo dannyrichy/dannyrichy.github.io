@@ -8,15 +8,14 @@ category: "Prob thingies"
 
 Date: 9/11/2024
 
-### Whazzat!
+#### Whazzat!
 
-    **Prelude**
-    A stochastic process is a set of random variables in a probability space. The index of which is usually time. More formally, given a probability space $$ (\Omega, \mathcal{F}, \mathcal{P}) $$, and an index set $$ \mathcal{T} $$, the stochastic process is $$ {X(t) \| t \in \mathcal{T}} $$. 
+**Stochastic Process**: A stochastic process is a set of random variables in a probability space. The index of which is usually time. More formally, given a probability space $$ (\Omega, \mathcal{F}, \mathcal{P}) $$, and an index set $$ \mathcal{T} $$, the stochastic process is $$ {X(t) \| t \in \mathcal{T}} $$. 
 
 A [time continuous stochastic process](https://en.wikipedia.org/wiki/Continuous-time_stochastic_process), $$ {X(t) \| t \in \mathcal{T}} $$ where any finite set of indices $$ t_1, t_2, \cdots t_k \in \mathcal{T} $$ ensures that $$ X_{t_1, t_2, \cdots t_k} = [X(t_1), X(t_2), \cdots X(t_k)]^T $$ is a multivariate Gaussian random variable. 
     A multivariate Gaussian rv is same as saying any linear combination of $$ (X(t_1), X(t_2), \cdots X(t_k)) $$ is a univariate Gaussian distribution. :astonished:
 
-- The variance of a Gaussian process is finite at any time t, i.e., $$ \mathbb{E}[\|X(t)-\mathbb{E}[X(t)]|^2 ] \le \infty \forall t \in \mathcal{T} $$.
+- The variance of a Gaussian process is finite at any time t, i.e., $$ \mathbb{E}[\|X(t)-\mathbb{E}[X(t)]\|^2 ] \le \infty \forall t \in \mathcal{T} $$.
 - For Gaussian Stochastic process, __[strict sense stationarity](https://en.wikipedia.org/wiki/Stationary_process#strict-sense_stationarity)__ is equivalent to __[wide sense stationarity](https://en.wikipedia.org/wiki/Stationary_process#wide-sense_stationarity)__ .
 - If a gaussian process is assumed to have mean zero, then it's behaviour is completely defined by the *covariance function*.
 
