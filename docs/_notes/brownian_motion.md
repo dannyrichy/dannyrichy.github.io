@@ -10,8 +10,8 @@ Date: 19/11/2024
 #### Whazzat!
 
 A weiner process $$ W_t $$ has the following properties 
- - \( W_0 = 0 \)
- - W_t is ***almost surely*** continous. An event happening almost surely means the event happens _with probability 1_
+ - $$ W_0 = 0 $$, it always is assumed to start from 0. 
+ - W_t is ***almost surely*** continous. An event happening almost surely means it happens _with probability 1_
  - Increaments are independent of each other
  - $$ W_t - W_s \sim \mathcal{N}(0, t-s) \| \forall 0 \leq s \leq t  $$. 
   
