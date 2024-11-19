@@ -7,7 +7,7 @@ category: "Prob thingies"
 
 Date: 18/11/2024
 
-#### Boring definition
+#### Whazzat!
 
 A dirichlet distribution is a multivariate generalisation of [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution). Thus,,dirichlet distribution is used as conjugate prior for categorical distribution, just like how beta distribution is for [bernouilli](https://en.wikipedia.org/wiki/Bernoulli_distribution) and [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution). It is parameterised by $$ \mathbf{\alpha} = [\alpha_1, \alpha_2,\cdots \alpha_n]^T $$. The following image is taken from [wiki](https://en.wikipedia.org/wiki/Dirichlet_distribution) where n = 3 and the $$ \alpha_1 = \alpha_2 = \alpha_3 $$.
 
