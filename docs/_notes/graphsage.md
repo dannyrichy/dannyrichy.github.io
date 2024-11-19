@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Graph Sage
-category: "Graph Machine Learning"
+category: "In the Pursuit of Graphiness"
 ---

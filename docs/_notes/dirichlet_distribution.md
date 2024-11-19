@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dirichlet distribution
-category: "Prob thingies"
+category: "What the Bayes Is Going On?"
 ---
 ## Dirichlet distribution
 

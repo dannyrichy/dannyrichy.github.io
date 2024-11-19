@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Node2vec
-category: "Graph Machine Learning"
+category: "In the Pursuit of Graphiness"
 ---

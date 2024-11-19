@@ -1,5 +1,5 @@
 ---
 layout: default
 title: NetMF
-category: "Graph Machine Learning"
+category: "In the Pursuit of Graphiness"
 ---

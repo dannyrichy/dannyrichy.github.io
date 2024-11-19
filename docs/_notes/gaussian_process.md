@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gaussian Process
-category: "Prob thingies"
+category: "What the Bayes Is Going On?"
 ---
 
 ## Gaussian Process

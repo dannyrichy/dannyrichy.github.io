@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wiener Process
-category: "Prob thingies"
+category: "What the Bayes Is Going On?"
 ---
 ## Wiener Process
 

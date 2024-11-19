@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Markov Process
-category: "Prob thingies"
+category: "What the Bayes Is Going On?"
 ---
