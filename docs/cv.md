@@ -38,7 +38,8 @@ title: "CV"
   <span>Inria Centre at Université Côte d’Azur, Nice, France</span>
   <span>Sep 2024 – Present</span>
 </div>
-<p>Work on topics related to Green Federated Learning under the supervision of Prof. Dr. Giovanni Neglia</p>
+
+<p style="text-align: justify;">Work on topics related to Green Federated Learning under the supervision of Prof. Dr. Giovanni Neglia</p>
 
 #### Research Engineer
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
@@ -46,21 +47,23 @@ title: "CV"
   <span>Jun 2023 – Jul 2023</span>
 </div> 
 
-<p>Tweaked and expanded the transformer-based wildfire detection model trained on satellite images (VIIRS) to encompass new geographic regions.</p>
+<p style="text-align: justify;">Tweaked and expanded the transformer-based wildfire detection model trained on satellite images (VIIRS) to encompass new geographic regions.</p>
 
 #### Teaching Assistant
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
   <span>KTH, Stockholm, Sweden</span>
   <span>Nov 2021 – May 2023</span>
-</div> 
-<p>Assisted in tutorials, graded assignments, and prepared course materials for Advanced Machine Learning, Artificial Intelligence, and Search Engines courses</p>
+</div>
+
+<p style="text-align: justify;">Assisted in tutorials, graded assignments, and prepared course materials for Advanced Machine Learning, Artificial Intelligence, and Search Engines courses</p>
 
 #### Scania Student Intro Program
   <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
   <span>Scania AB, Stockholm, Sweden</span>
   <span>Jun 2022 – Nov 2023</span>
 </div>
-<p>Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies<br>
+
+<p style="text-align: justify;">Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies<br>
 <strong>Thesis Worker</strong> Probed learnt representation of State-of-the-art Deep learning models for Time Series anomaly detection use-cases<br>
 <strong>Summer Worker</strong> Developed an *MLP model* during the summer program to identify faulty components by leveraging diagnostic trouble codes (DTC)</p>
 
@@ -69,7 +72,8 @@ title: "CV"
   <span>Gyan Data, Chennai, India</span>
   <span>Sep 2019 – Jun 2021</span>
 </div>
-<p><strong>Smart Pill Manufacturing - Pfizer</strong>: Utilized KNN to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using SVR; Implemented an IPython notebook-based and Tkinter tool<br>
+
+<p style="text-align: justify;"><strong>Smart Pill Manufacturing - Pfizer</strong>: Utilized KNN to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using SVR; Implemented an IPython notebook-based and Tkinter tool<br>
 <strong>HVAC Fault Detection system - VOLTAS</strong>: Developed Logistic Regression and Rule-based system; Detected change points using L1-trend filter; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India</p>
 
 #### Business Analytics Consultant
@@ -77,7 +81,8 @@ title: "CV"
   <span>Crayon Data, Chennai, India</span>
   <span>Jun 2018 – Sep 2019</span>
 </div>
-<p>Implemented Customer demographic based clustering to extend recommendations increasing customer coverage to 100 % from 30 %; Developed tunable recommender engine for periodic and ad-hoc business opportunities. Utilized a combination of n-gram and Cologne phonetics algorithms for efficient entity resolution. Achieved an impressive reduction ratio of 7000:1. Utilized Apache Spark to improve the scalability of the recommender engine to process 7M customer transaction records, up from 300K</p>
+
+<p style="text-align: justify;">Implemented Customer demographic based clustering to extend recommendations increasing customer coverage to 100 % from 30 %; Developed tunable recommender engine for periodic and ad-hoc business opportunities. Utilized a combination of n-gram and Cologne phonetics algorithms for efficient entity resolution. Achieved an impressive reduction ratio of 7000:1. Utilized Apache Spark to improve the scalability of the recommender engine to process 7M customer transaction records, up from 300K</p>
 
 ---
 
