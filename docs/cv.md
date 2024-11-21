@@ -9,13 +9,13 @@ title: "CV"
 
 ## Education
 
-#### KTH Royal Institute of Technology, Stockholm, Sweden  
-  _Master of Science in Machine Learning, GPA: 4.85/5.0_  
+#### M.Sc in Machine Learning  
+  <small>KTH Royal Institute of Technology, Stockholm, Sweden</small>
   **2021 – 2023**  
   ***Highlighted coursework*** *Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML*
 
-#### Indian Institute of Technology - Madras, Chennai, India  
-  _Bachelor of Technology in Mechanical Engineering, Minor in Systems Engineering, GPA: 8.02/10.0_  
+#### B.Tech in Mechanical Engineering  
+  <small>Indian Institute of Technology - Madras, Chennai, India</small>
   **2014 – 2018**  
   ***Highlighted coursework*** *Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis*
 
