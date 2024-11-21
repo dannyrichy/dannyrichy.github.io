@@ -11,7 +11,7 @@ title: "CV"
 
 #### M.Sc in Machine Learning  
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
-  <span>KTH Royal Institute of Technology, Stockholm, Sweden <a href="https://www.kth.se/en" target="_blank" class="download-link"><i class="fa-solid fa-square-up-right" style="margin-left: 5px;"></i></a></span>
+  <span>KTH Royal Institute of Technology, Stockholm, Sweden <a href="https://www.kth.se/en" target="_blank"><i class="fa-solid fa-square-up-right" style="margin-left: 7px;"></i></a></span>
   <span>2021 – 2023</span>
 </div>
 
@@ -21,7 +21,7 @@ title: "CV"
 
 #### B.Tech in Mechanical Engineering
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
-  <span>Indian Institute of Technology - Madras, Chennai, India <a href="https://www.iitm.ac.in/" target="_blank" class="download-link"><i class="fa-solid fa-square-up-right" style="margin-left: 5px;"></i></a></span>
+  <span>Indian Institute of Technology - Madras, Chennai, India <a href="https://www.iitm.ac.in/" target="_blank"><i class="fa-solid fa-square-up-right" style="margin-left: 7px;"></i></a></span>
   <span>2014 – 2018</span>
 </div>
 
