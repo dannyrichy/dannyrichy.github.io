@@ -10,20 +10,20 @@ title: "CV"
 ## Education
 
 #### M.Sc in Machine Learning  
-<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
+<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
   <span><a href="https://www.kth.se/en" target="_blank" style="text-decoration: none; color: inherit;">KTH Royal Institute of Technology, Stockholm, Sweden</a></span>
   <span>2021 – 2023</span>
 </div>
 
-***Highlighted coursework*** *Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML*
+<small>***Highlighted coursework*** *Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML*<small>
 
 #### B.Tech in Mechanical Engineering
-<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
+<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
   <span><a href="https://www.iitm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">Indian Institute of Technology - Madras, Chennai, India</a></span>
   <span>2014 – 2018</span>
 </div>
 
-***Highlighted coursework*** *Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis*
+<small>***Highlighted coursework*** *Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis*</small>
 
 ---
 
