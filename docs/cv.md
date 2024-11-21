@@ -11,20 +11,20 @@ title: "CV"
 
   <div>
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-      <div><strong>M.Sc in Machine Learning</strong></div>
-      <div><span style="font-size: smaller;">2021 – 2023</span></div>
+      <h4>M.Sc in Machine Learning</h4>
+      <span style="font-size: smaller;">2021 – 2023</span>
     </div>
-    <div><span>KTH Royal Institute of Technology, Stockholm, Sweden</span></div>
-    <div style="font-style: italic; font-weight: bold;">Highlighted coursework: Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML</div>
+    <p>KTH Royal Institute of Technology, Stockholm, Sweden</p>
+    <p style="font-style: italic; font-weight: bold;">Highlighted coursework: Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML</p>
   </div>
   <br>
   <div>
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-      <div><strong>B.Tech in Mechanical Engineering</strong></div>
-      <div><span style="font-size: smaller;">2014 – 2018</span></div>
+      <h4>B.Tech in Mechanical Engineering</h4>
+      <span style="font-size: smaller;">2014 – 2018</span>
     </div>
-    <div><span>Indian Institute of Technology - Madras, Chennai, India</span></div>
-    <div style="font-style: italic; font-weight: bold;">Highlighted coursework: Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis</div>
+    <p>Indian Institute of Technology - Madras, Chennai, India</p>
+    <p style="font-style: italic; font-weight: bold;">Highlighted coursework: Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis</p>
   </div>
 
 ---
