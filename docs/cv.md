@@ -11,24 +11,22 @@ title: "CV"
 
 #### M.Sc in Machine Learning  
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
-  <span><a href="https://www.kth.se/en" target="_blank" style="text-decoration: none; color: inherit;">KTH Royal Institute of Technology, Stockholm, Sweden</a></span>
+  <span>KTH Royal Institute of Technology, Stockholm, Sweden <a href="https://www.kth.se/en" target="_blank" class="download-link"><i class="fa-solid fa-square-up-right" style="margin-left: 5px;"></i></a></span>
   <span>2021 – 2023</span>
 </div>
 
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
-  <span><emp>Highlighted coursework</emp></span>
-  <span>Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML</span>
+  <span><emp>Highlighted coursework</emp>: Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML</span>
 </div>
 
 #### B.Tech in Mechanical Engineering
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
-  <span><a href="https://www.iitm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">Indian Institute of Technology - Madras, Chennai, India</a></span>
+  <span>Indian Institute of Technology - Madras, Chennai, India <a href="https://www.iitm.ac.in/" target="_blank" class="download-link"><i class="fa-solid fa-square-up-right" style="margin-left: 5px;"></i></a></span>
   <span>2014 – 2018</span>
 </div>
 
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
-  <span><emp>Highlighted coursework</emp></span>
-  <span>Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis</span>
+  <span><emp>Highlighted coursework</emp>: Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis</span>
 </div>
 
 ---
