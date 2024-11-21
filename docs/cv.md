@@ -10,20 +10,26 @@ title: "CV"
 ## Education
 
 #### M.Sc in Machine Learning  
-<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
+<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
   <span><a href="https://www.kth.se/en" target="_blank" style="text-decoration: none; color: inherit;">KTH Royal Institute of Technology, Stockholm, Sweden</a></span>
   <span>2021 – 2023</span>
 </div>
 
-  ***Highlighted coursework*** *Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML*
+<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
+  <span><emp>Highlighted coursework</emp></span>
+  <span>Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML</span>
+</div>
 
 #### B.Tech in Mechanical Engineering
-<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
+<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
   <span><a href="https://www.iitm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">Indian Institute of Technology - Madras, Chennai, India</a></span>
   <span>2014 – 2018</span>
 </div>
 
-  ***Highlighted coursework*** *Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis*
+<div style="display: flex; justify-content: space-between; font-size: small; font-style: italic; color:#808080">
+  <span><emp>Highlighted coursework</emp></span>
+  <span>Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis</span>
+</div>
 
 ---
 
@@ -43,13 +49,16 @@ title: "CV"
 
 #### Scania Student Intro Program
   Scania AB, Stockholm, Sweden _Jun 2022 – Nov 2023_
+
   Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies.
+  
   **Thesis Worker** Probed learnt representation of *State-of-the-art* Deep learning models for Time Series anomaly detection use-cases.
 
   **Summer Worker** Developed an *MLP model* during the summer program to identify faulty components by leveraging diagnostic trouble codes (*DTC*).
 
 #### Data Scientist
   **Gyan Data, Chennai, India** _Sep 2019 – Jun 2021_  
+  
   **Smart Pill Manufacturing - Pfizer**: Utilized *KNN* to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using **SVR**; Implemented an **IPython** notebook-based and *Tkinter* tool.
 
   **HVAC Fault Detection system - VOLTAS**: Developed *Logistic Regression* and *Rule-based system*; Detected change points using *L1-trend filter*; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India.
