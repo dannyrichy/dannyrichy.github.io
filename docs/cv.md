@@ -60,17 +60,17 @@ title: "CV"
   <span>Scania AB, Stockholm, Sweden</span>
   <span>Jun 2022 – Nov 2023</span>
 </div>
-<p>Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies</p>
-<p><strong>Thesis Worker</strong> Probed learnt representation of State-of-the-art Deep learning models for Time Series anomaly detection use-cases</p>
-<p><strong>Summer Worker</strong> Developed an *MLP model* during the summer program to identify faulty components by leveraging diagnostic trouble codes (DTC)</p>
+<p>Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies<br>
+<strong>Thesis Worker</strong> Probed learnt representation of State-of-the-art Deep learning models for Time Series anomaly detection use-cases<br>
+<strong>Summer Worker</strong> Developed an *MLP model* during the summer program to identify faulty components by leveraging diagnostic trouble codes (DTC)</p>
 
 #### Data Scientist
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
   <span>Gyan Data, Chennai, India</span>
   <span>Sep 2019 – Jun 2021</span>
 </div>
-<p><strong>Smart Pill Manufacturing - Pfizer</strong>: Utilized KNN to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using SVR; Implemented an IPython notebook-based and Tkinter tool</p>
-<p><strong>HVAC Fault Detection system - VOLTAS</strong>: Developed Logistic Regression and Rule-based system; Detected change points using L1-trend filter; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India</p>
+<p><strong>Smart Pill Manufacturing - Pfizer</strong>: Utilized KNN to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using SVR; Implemented an IPython notebook-based and Tkinter tool<br>
+<strong>HVAC Fault Detection system - VOLTAS</strong>: Developed Logistic Regression and Rule-based system; Detected change points using L1-trend filter; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India</p>
 
 #### Business Analytics Consultant
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
