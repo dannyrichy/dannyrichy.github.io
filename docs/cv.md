@@ -9,60 +9,52 @@ title: "CV"
 
 ## Education
 
-  <div>
-    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-      <h4>M.Sc in Machine Learning</h4>
-      <span style="font-size: smaller;">2021 – 2023</span>
-    </div>
-    <p>KTH Royal Institute of Technology, Stockholm, Sweden</p>
-    <p style="font-style: italic; font-weight: bold;">Highlighted coursework: Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML</p>
+#### M.Sc in Machine Learning  
+  <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
+    <span><a href="https://www.kth.se/en" target="_blank" style="text-decoration: none; color: inherit;">KTH Royal Institute of Technology, Stockholm, Sweden</span>
+    <span>2021 – 2023</span>
   </div>
-  <br>
-  <div>
-    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-      <h4>B.Tech in Mechanical Engineering</h4>
-      <span style="font-size: smaller;">2014 – 2018</span>
-    </div>
-    <p>Indian Institute of Technology - Madras, Chennai, India</p>
-    <p style="font-style: italic; font-weight: bold;">Highlighted coursework: Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis</p>
+
+  ***Highlighted coursework*** *Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Network, Stochastic Differential Equations for ML*
+
+#### B.Tech in Mechanical Engineering
+  <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
+    <span><a href="https://www.iitm.ac.in/" target="_blank" style="text-decoration: none; color: inherit;">Indian Institute of Technology - Madras, Chennai, India</span>
+    <span>2014 – 2018</span>
   </div>
+
+  ***Highlighted coursework*** *Linear Algebra, Machine Learning, Data Structures and Algorithms, Multivariate Data Analysis*
 
 ---
 
 ## Work Experience
 
 #### Research Visit (Internship)
-  Inria Centre at Université Côte d’Azur, Nice, France  
-  _Sep 2024 – Present_  
+  **Inria Centre at Université Côte d’Azur, Nice, France** _Sep 2024 – Present_  
   Work on topics related to Green Federated Learning under the supervision of *Prof. Dr. Giovanni Neglia*.
 
 #### Research Engineer
-  Division of Geoinformatics, KTH, Stockholm, Sweden  
-  _Jun 2023 – Jul 2023_  
-  Tweaked and expanded the transformer-based wildfire detection model (Y. Zhao et al. (2023)) trained on satellite images (VIIRS) to encompass new geographic regions.
+  **Division of Geoinformatics, KTH, Stockholm, Sweden** _Jun 2023 – Jul 2023_  
+  Tweaked and expanded the transformer-based wildfire detection model trained on satellite images (VIIRS) to encompass new geographic regions.
 
 #### Teaching Assistant
-  KTH, Stockholm, Sweden  
-  _Nov 2021 – May 2023_  
+  **KTH, Stockholm, Sweden** _Nov 2021 – May 2023_  
   Assisted in tutorials, graded assignments, and prepared course materials for Advanced Machine Learning, Artificial Intelligence, and Search Engines courses.
 
 #### Scania Student Intro Program
-  Scania AB, Stockholm, Sweden
-  _Jun 2022 – Nov 2023_
+  Scania AB, Stockholm, Sweden _Jun 2022 – Nov 2023_
   Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies.
-  **Thesis Worker** Probed learnt representation of *State-of-the-art* Deep learning models for Time Series anomaly detection usecases. 
-  **Summer Worker** Developed an **MLP model** during the summer program to identify faulty components by leveraging diagnostic trouble codes (**DTC**).
+  **Thesis Worker** Probed learnt representation of *State-of-the-art* Deep learning models for Time Series anomaly detection use-cases. 
+  **Summer Worker** Developed an *MLP model* during the summer program to identify faulty components by leveraging diagnostic trouble codes (*DTC*).
 
 #### Data Scientist
-  Gyan Data, Chennai, India  
-  _Sep 2019 – Jun 2021_  
-  **Smart Pill Manufacturing - Pfizer**: Utilized **KNN** to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using **SVR**; Implemented an **IPython** notebook-based and **Tkinter** tool. 
-  **HVAC Fault Detection system - VOLTAS**: Developed **Logistic Regression** and **Rule-based system**; Detected change points using **L1-trend filter**; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India.
+  **Gyan Data, Chennai, India** _Sep 2019 – Jun 2021_  
+  **Smart Pill Manufacturing - Pfizer**: Utilized *KNN* to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using **SVR**; Implemented an **IPython** notebook-based and *Tkinter* tool. 
+  **HVAC Fault Detection system - VOLTAS**: Developed *Logistic Regression* and *Rule-based system*; Detected change points using *L1-trend filter*; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India.
 
 #### Business Analytics Consultant
-  Crayon Data, Chennai, India  
-  _Jun 2018 – Sep 2019_  
-  Implemented **Customer demographic based clustering** to extend recommendations increasing customer coverage to **100 %** from **30 %**; Developed tunable recommender engine for periodic and ad-hoc business opportunities. Utilized a combination of **n-gram** and **Cologne phonetics** algorithms for efficient entity resolution. Achieved an impressive reduction ratio of **7000:1**. Utilized *Apache Spark* to improve the scalability of the recommender engine to process **7M** customer transaction records, up from **300K**
+  **Crayon Data, Chennai, India** _Jun 2018 – Sep 2019_  
+  Implemented *Customer demographic based clustering* to extend recommendations increasing customer coverage to *100 %* from *30 %*; Developed tunable recommender engine for periodic and ad-hoc business opportunities. Utilized a combination of *n-gram* and *Cologne phonetics* algorithms for efficient entity resolution. Achieved an impressive reduction ratio of *7000:1*. Utilized *Apache Spark* to improve the scalability of the recommender engine to process *7M* customer transaction records, up from *300K*
 
 ---
 
