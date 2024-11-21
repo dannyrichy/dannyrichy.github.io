@@ -65,7 +65,7 @@ title: "CV"
 
 <p style="text-align: justify;">Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies<br>
 <strong>Thesis Worker</strong> Probed learnt representation of State-of-the-art Deep learning models for Time Series anomaly detection use-cases<br>
-<strong>Summer Worker</strong> Developed an *MLP model* during the summer program to identify faulty components by leveraging diagnostic trouble codes (DTC)</p>
+<strong>Summer Worker</strong> Developed an MLP model during the summer program to identify faulty components by leveraging diagnostic trouble codes (DTC)</p>
 
 #### Data Scientist
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
@@ -95,7 +95,7 @@ title: "CV"
   Inspected the quality of the GTZAN dataset (public dataset for music genre recognition) using learned representations from multiple deep-learning-based music taggers. Evaluated the clusterability of the learned representations using KNN and GMM for genre classification; Auditorily inspected the generalisability of these music taggers using out-of-distribution data like non-Western music. <a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
 #### Git Bi-sect: Dissecting Git Re-basin Paper  
-  Reproduced the "Git Re-basin" paper (Ainsworth et al.), verifying low loss barrier between deep learning models after removing permutation symmetries; conducted an in-depth analysis to explore the evolution of Linear Mode Connectivity as training progresses; discovered the importance of hyper-parameters on finding permutations; negated claims of methodology not working on MNIST. <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
+  Reproduced the "Git Re-basin" paper <a href="https://arxiv.org/pdf/2209.04836" target="_blank">(Ainsworth et al.)</a>, verifying low loss barrier between deep learning models after removing permutation symmetries; conducted an in-depth analysis to explore the evolution of Linear Mode Connectivity as training progresses; discovered the importance of hyper-parameters on finding permutations; negated claims of methodology not working on MNIST. <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
 
 #### Deep Learning Model Extraction Attack  
   Assessed model extraction attacks on VGG and ResNet models. Designed and implemented an algorithm to identify a core set; investigated the number of samples needed to extract the model. Executed privacy attacks on the extracted model to assess the vulnerability of the victim model. <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
