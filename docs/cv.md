@@ -39,7 +39,7 @@ title: "CV"
   <span>Sep 2024 – Present</span>
 </div>
 
-<p style="text-align: justify;">Work on topics related to Green Federated Learning under the supervision of Prof. Dr. Giovanni Neglia</p>
+<p style="text-align: justify;">Work on methods to reduce the greenhouse gas emissions of deep learning models trained in a federated fashion under non-IID assumptions, correlated and heterogeneous participation, under the supervision of <a href="http://www-sop.inria.fr/members/Giovanni.Neglia/" target="_blank">Prof. Dr. Giovanni Neglia</a>.</p>
 
 #### Research Engineer
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
