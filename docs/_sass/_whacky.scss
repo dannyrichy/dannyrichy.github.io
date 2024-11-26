@@ -30,12 +30,9 @@ body {
 footer {
   text-align: center;
   padding: 20px;
-  color: #fff;
+  color: #333;
   max-width: 40rem;
   margin: 0 auto;
-  /* Center footer */
-  margin-top: auto;
-  /* Push footer to the bottom */
 }
 
 footer a {
@@ -321,20 +318,4 @@ img[alt=profileimg] {
   display: inline;
   width: 150px;
   height: 150px;
-}
-
-.download-link {
-  text-decoration: none;
-  /* Remove the default underline */
-  border-bottom: 2px dotted #000;
-  /* Add a dotted underline */
-}
-
-.download-link:hover {
-  border-bottom: 2px dotted #333;
-  /* Darker dotted underline on hover */
-}
-
-.mjx-chtml {
-  font-size: 0.8rem; /* Adjust to fit the surrounding text */
 }
