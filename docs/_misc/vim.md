@@ -4,8 +4,8 @@ title: VIM shortcuts
 category: "Dev Tutorial"
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<a href="/alt_ego.html" class="download-link">
-  <i class="fa-regular fa-circle-down" style="color: #000;"></i> Back
+<a href="/alter_ego.html" class="back-link">
+  <i class="fa-solid fa-left-long" style="color: #fff;"></i> Back
 </a>
 ## VIM
 
