@@ -13,6 +13,7 @@
             // Highlight "Notes" link if we are in /notes/* paths
             else if (currentPath.startsWith("/notes") && linkPath === "/notes") {
                 link.classList.add("active");
+                console.log("Active on Notes link");
             }
             // Remove "active" class for other links
             else {
