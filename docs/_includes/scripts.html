@@ -7,7 +7,10 @@
             const linkPath = link.getAttribute("href");
 
             // Special handling for root page ("/") to only highlight "About"
-            if (linkPath === "/" && (currentPath === "/" || currentPath === "")) {
+            if (linkPath === "/" && (currentPath === "/" || currentPath === "" || currentPath === "/index")) {
+                link.classList.add("active");
+            }
+            else if (linkPath === "/cv" && currentPath === "/cv") {
                 link.classList.add("active");
             }
             // Highlight "Notes" link if we are in /notes/* paths
