@@ -30,16 +30,13 @@ body {
 footer {
   text-align: center;
   padding: 20px;
-  color: #fff;
+  color: #333;
   max-width: 40rem;
   margin: 0 auto;
-  /* Center footer */
-  margin-top: auto;
-  /* Push footer to the bottom */
 }
 
 footer a {
-  color: #fff;
+  color: #333;
   margin: 0 15px;
   text-decoration: none;
 }
@@ -76,17 +73,6 @@ a:hover {
   /* Slightly reduce space between text and underline on hover */
 }
 
-
-#footer a {
-  color: #808080;
-  /* From http://clrs.cc */
-  text-decoration: none;
-}
-
-#footer a:hover,
-a:focus {
-  text-decoration: underline;
-}
 
 small {
   color: #B0B0B0;
@@ -336,5 +322,6 @@ img[alt=profileimg] {
 }
 
 .mjx-chtml {
-  font-size: 0.8rem; /* Adjust to fit the surrounding text */
+  font-size: 0.8rem;
+  /* Adjust to fit the surrounding text */
 }
