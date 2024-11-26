@@ -5,6 +5,7 @@ url:  "https://dannyrichy.github.io" # the base hostname & protocol for your sit
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
@@ -16,3 +17,7 @@ collections:
   notes:
     output: true # This ensures each item gets its own page
     permalink: /notes/:name # Optional: Sets the URL structure for each note
+  
+  misc:
+    output: true # This ensures each item gets its own page
+    permalink: /misc/:name # Optional: Sets the URL structure for each note
