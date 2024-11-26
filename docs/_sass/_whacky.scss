@@ -16,14 +16,14 @@ html {
 body {
   margin: 2rem 0 5rem;
   /* Space at the bottom for footer */
-  color: #eee;
+  color: #eb0801;
   font-family: 'Merriweather', serif;
   font-weight: 400;
   /* Regular weight for body text */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #111;
+  background-color: #141409;
   /* Ensures body takes full height of the viewport */
 }
 
@@ -31,13 +31,13 @@ body {
 footer {
   text-align: center;
   padding: 20px;
-  color: #fff;
+  color: #db700e;
   max-width: 40rem;
   margin: 0 auto;
 }
 
 footer a {
-  color: #111;
+  color: #141409;
   margin: 0 15px;
   text-decoration: none;
 }
@@ -57,7 +57,7 @@ footer a i {
 a {
   text-decoration: none;
   /* No underline by default */
-  color: #2323ff;
+  color: #db700e;
   /* Set text color to blue */
   font-family: 'Merriweather', serif;
   /* Use your font-family */
@@ -103,7 +103,7 @@ h6 {
   -webkit-font-smoothing: antialiased;
   margin: 0 0 0.5rem -0.1rem;
   line-height: 1;
-  color: #eee;
+  color: #eb0801;
   text-rendering: optimizeLegibility;
 }
 
@@ -171,7 +171,7 @@ blockquote {
   font-weight: 400;
   /* Regular weight for paragraph text */
   font-size: 0.8rem;
-  color: #eee;
+  color: #eb0801;
   /* Slightly smaller font for normal text */
   line-height: 1.6;
   /* Adjust line-height for readability */
@@ -231,7 +231,7 @@ th {
 pre,
 code {
   font-family: inherit;
-  background-color: #eee;
+  background-color: #eb0801;
 }
 
 pre {
@@ -276,7 +276,7 @@ pre>code {
 
 /* Styling for each link */
 .top-nav a {
-  color: #eee;
+  color: #eb0801;
   /* Dark color for contrast */
   text-decoration: none;
   margin: 0 1rem;
@@ -298,7 +298,7 @@ pre>code {
   width: 0;
   height: 2px;
   /* Height of the underline */
-  background-color: #eee;
+  background-color: #eb0801;
   /* Blue color for the underline */
   transition: width 0.3s ease;
   /* Smooth underline animation */
@@ -311,12 +311,35 @@ pre>code {
 }
 
 .top-nav a.active {
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #eb0801;
   /* Adds a dark line under the selected section */
 }
 
-img[alt=profileimg] {
-  display: inline;
+/* Style for the image container */
+.img-container {
+  position: relative;
+  display: inline-block; /* Ensures the container size matches the image */
   width: 150px;
   height: 150px;
+}
+
+/* Style for the image */
+.img-container img {
+  display: inline;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container properly */
+}
+
+/* Overlay */
+.img-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eb0801;
+  opacity: 0.5; /* Adjust the transparency */
+  pointer-events: none; /* Makes the overlay non-interactive */
 }

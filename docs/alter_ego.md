@@ -1,8 +1,10 @@
 ---
 layout: niendefault
 ---
-![profileimg](/assets/profile_blur.jpg)
-# Daniel Richards ***R.***
+<div class="img-container">
+  <img src="/assets/profile_blur.jpg" alt="profile image" />
+</div>
+# DANIEL RICHARDS ***R.***
 <p style="text-align: justify;">
 This is the alternate side meant to track all other things
 </p>
