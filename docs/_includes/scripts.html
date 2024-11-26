@@ -1,17 +1,23 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-    const currentPath = window.location.pathname; // Get the full current path
-    const navLinks = document.querySelectorAll(".top-nav a");
+        const currentPath = window.location.pathname; // Get the full current path
+        const navLinks = document.querySelectorAll(".top-nav a");
 
-    navLinks.forEach(link => {
-        const linkPath = link.getAttribute("href");
+        navLinks.forEach(link => {
+            const linkPath = link.getAttribute("href");
 
-        // Check if the linkPath is part of the currentPath
-        if (currentPath.startsWith(linkPath)) {
-            link.classList.add("active");
-        } else {
-            link.classList.remove("active");
-        }
+            // Special handling for root page ("/") to only highlight "About"
+            if (linkPath === "/" && (currentPath === "/" || currentPath === "")) {
+                link.classList.add("active");
+            }
+            // Highlight "Notes" link if we are in /notes/* paths
+            else if (currentPath.startsWith("/notes") && linkPath === "/notes") {
+                link.classList.add("active");
+            }
+            // Remove "active" class for other links
+            else {
+                link.classList.remove("active");
+            }
+        });
     });
-});
 </script>
