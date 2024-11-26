@@ -16,13 +16,14 @@ html {
 body {
   margin: 2rem 0 5rem;
   /* Space at the bottom for footer */
-  color: #333;
+  color: #eee;
   font-family: 'Merriweather', serif;
   font-weight: 400;
   /* Regular weight for body text */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #333;
   /* Ensures body takes full height of the viewport */
 }
 
@@ -30,13 +31,13 @@ body {
 footer {
   text-align: center;
   padding: 20px;
-  color: #333;
+  color: #fff;
   max-width: 40rem;
   margin: 0 auto;
 }
 
 footer a {
-  color: #fff;
+  color: #333;
   margin: 0 15px;
   text-decoration: none;
 }
@@ -275,7 +276,7 @@ pre>code {
 
 /* Styling for each link */
 .top-nav a {
-  color: #333;
+  color: #eee;
   /* Dark color for contrast */
   text-decoration: none;
   margin: 0 1rem;
@@ -297,7 +298,7 @@ pre>code {
   width: 0;
   height: 2px;
   /* Height of the underline */
-  background-color: #333;
+  background-color: #eee;
   /* Blue color for the underline */
   transition: width 0.3s ease;
   /* Smooth underline animation */
@@ -310,7 +311,7 @@ pre>code {
 }
 
 .top-nav a.active {
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #eee;
   /* Adds a dark line under the selected section */
 }
 
