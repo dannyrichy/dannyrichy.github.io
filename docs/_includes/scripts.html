@@ -1,13 +1,13 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-    const currentPath = window.location.pathname; // Get full path including directory
+    const currentPath = window.location.pathname; // Get the full current path
     const navLinks = document.querySelectorAll(".top-nav a");
 
     navLinks.forEach(link => {
-        const linkPath = link.getAttribute("href"); // Get full href path
+        const linkPath = link.getAttribute("href");
 
-        // Compare current path and link path (for exact match)
-        if (currentPath === linkPath || (currentPath === "/" && linkPath === "/")) {
+        // Check if the linkPath is part of the currentPath
+        if (currentPath.startsWith(linkPath)) {
             link.classList.add("active");
         } else {
             link.classList.remove("active");
