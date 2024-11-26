@@ -16,11 +16,9 @@ This is the alternate side meant to track all other things
   <ul>
     {% for note in category.items %}
     <li>
-      <a href="{{ note.url | relative_url }}" class="note-link">{{ misc.title | escape }}</a>
+      <a href="{{ note.url | relative_url }}" class="note-link">{{ note.title | escape }}</a>
     </li>
     {% endfor %}
   </ul>
   {% endfor %}
 </section>
-
-
