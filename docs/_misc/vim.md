@@ -5,8 +5,7 @@ category: "Dev Tutorial"
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <a href="/alter_ego.html" class="back-link">
-  <i class="fa-solid fa-circle-left" style="color: #fff;"></i> Back
-</a>
+  <i class="fa-solid fa-circle-left" style="color: #fff;"></i></a>
 ## VIM
 
 Date: 26/11/2024
