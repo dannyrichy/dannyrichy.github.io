@@ -1,6 +1,6 @@
 ---
 layout: niendefault
-title: VIM shortcuts
+title: VIM cheatsheet
 category: "Dev Tutorial"
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -19,6 +19,7 @@ Date: 26/11/2024
 | `i`     | Enter insert mode              |
 | `Esc`   | Exit insert mode               |
 
+---
 ## Navigation
 
 | Command | Description                    |
@@ -28,6 +29,7 @@ Date: 26/11/2024
 | `k`     | Move up                       |
 | `l`     | Move right                    |
 
+---
 ## Editing
 
 | Command | Description                           |
@@ -37,6 +39,7 @@ Date: 26/11/2024
 | `yy`    | Copy (yank) the current line         |
 | `p`     | Paste after the cursor               |
 
+---
 ## Search and Replace
 
 | Command         | Description                           |
@@ -46,6 +49,7 @@ Date: 26/11/2024
 | `N`             | Repeat the last search backward      |
 | `:%s/old/new/g` | Replace all occurrences of 'old' with 'new' |
 
+---
 ## Tabs and Windows
 
 | Command        | Description                   |
@@ -55,6 +59,7 @@ Date: 26/11/2024
 | `:vsplit`      | Split the window vertically   |
 | `Ctrl-w w`     | Switch between windows        |
 
+---
 ## Macros
 
 | Command  | Description                     |
@@ -64,6 +69,7 @@ Date: 26/11/2024
 | `@a`     | Execute macro in register `a`   |
 | `@@`     | Replay the last executed macro  |
 
+---
 ## Exit Commands
 
 | Command      | Description                    |
