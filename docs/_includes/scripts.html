@@ -1,17 +1,17 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const currentPath = window.location.pathname.split("/").pop(); // Get the last part of the path
-        const navLinks = document.querySelectorAll(".top-nav a");
+    const currentPath = window.location.pathname; // Get full path including directory
+    const navLinks = document.querySelectorAll(".top-nav a");
 
-        navLinks.forEach(link => {
-            const linkPath = link.getAttribute("href").split("/").pop(); // Get only the file name
+    navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href"); // Get full href path
 
-            // Add active class if linkPath matches currentPath
-            if (linkPath === currentPath || (currentPath === "" && linkPath === "index.html")) {
-                link.classList.add("active");
-            } else {
-                link.classList.remove("active");
-            }
-        });
+        // Compare current path and link path (for exact match)
+        if (currentPath === linkPath || (currentPath === "/" && linkPath === "/")) {
+            link.classList.add("active");
+        } else {
+            link.classList.remove("active");
+        }
     });
+});
 </script>

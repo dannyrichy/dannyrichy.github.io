@@ -3,7 +3,7 @@ layout: default
 title: Mirror Descent
 category: "In Too Deep (Learning)"
 ---
-## SDE treatment of SGD
+## Mirror Descent
 
 Date: 26/11/2024
 
