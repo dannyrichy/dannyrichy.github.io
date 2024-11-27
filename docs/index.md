@@ -20,13 +20,12 @@ layout: default
 I am interested in the optimization aspect of <strong>Deep Learning</strong>, and "under-the-hood" mechanisms that power them. 
 Throughout my journey, I've had the privilege to work on interesting projects, which I plan on explaining here, before they become victims of time's relentless march. You can find them <a href="/notes.html">here</a>
 </p>
----
 
 <a href="/alt_me">
   <button>Awesomified <em>v1.23</em></button>
 </a>
 
-
+---
 ## News
 
 - Cooking 🍳

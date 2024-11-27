@@ -3,7 +3,7 @@
 
 /* Base font for the entire document */
 html {
-  font: 10px/1.5 'Merriweather', serif;
+  font: 12px/1.5 'Merriweather', serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -335,19 +335,23 @@ button {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   transition: all 0.3s ease;
-  box-shadow: 0px 8px 0px #b00501, 0px 12px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: -8px 8px 0px #b00501,-7px 7px 0px #b00501,-6px 6px 0px #b00501,-5px 5px 0px #b00501,-4px 4px 0px #b00501,-3px 3px 0px #b00501,-2px 2px 0px #b00501,-1px 1px 0px #b00501;
   color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 
 button:hover {
-  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+  background-color: rgb(255, 56, 86);
+  /*50, 168, 80*/
+  box-shadow: -7px 7px 0px #b00501,-6px 6px 0px #b00501,-5px 5px 0px #b00501,-4px 4px 0px #b00501,-3px 3px 0px #b00501;
+  transform: translate(-2px, 2px); /* Move diagonally down and left */
+  transition: transform 400ms ease; /* Only animate the transform property */
 }
 
 button:active {
   background-color: rgb(255, 56, 86);
   /*50, 168, 80*/
-  box-shadow: 0px 8px 0px #b00501, 0px 12px 15px rgba(0, 0, 0, 0.2);
-  transform: translateY(5px);
-  transition: 200ms;
+  box-shadow: -6px 6px 0px #b00501,-5px 5px 0px #b00501;
+  transform: translate(-4px, 4px); /* Move diagonally down and left */
+  transition: transform 200ms ease; /* Only animate the transform property */
 }
