@@ -14,10 +14,10 @@ layout: niendefault
 
 <p> Before all this, I was living the startup life as a <em>Business Analytics Consultant</em> / <em>Data Miner</em> in the world of recommendation engines. But honestly, as with any startup, I wore many hats—from graphic design to coding to data engineering to presenting to clients. I was one of the first folks to design, code, and research on the company's <a href="https://crayondata.ai/the-future-of-ai/" target="_blank">Enterprise Recommender engine</a>. I also took on the role of a <em>Consultant Data Scientist</em>, where I explored how data can help industries smartify their production line. These experiences not only sharpened my technical skills but also honed my soft skills</p>
 
-<p style="text-align: justify;"> These days, I am interested in understanding the magic behind <strong>Deep Learning</strong>—the hidden gears and mechanisms that make it all tick (I mean, who doesn't love imagining higher-dimensional space and how optimizers move through the weight space?). Along the way, I've worked on some pretty interesting projects. Before time sweeps them away into the abyss of forgotten things. Take a peek at them <a href="/tut">here</a>. </p>
+<p style="text-align: justify;"> These days, I am interested in understanding the magic behind <strong>Deep Learning</strong>—the hidden gears and mechanisms that make it all tick (I mean, who doesn't love imagining higher-dimensional space and how optimizers move through the weight space?). Along the way, I've worked on some pretty interesting projects. Before time sweeps them away into the abyss of forgotten things. Take a peek at them <a href="/notes">here</a>. </p>
 
 I hate to put this here, but I understand if you want to be the kind of person who prefers the boring version of this.
 
 <a href="/">
-  <button>Borified <em>v0.23</em></button>
+  <button>Borified <em>v 0.23</em></button>
 </a>
