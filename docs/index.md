@@ -21,7 +21,7 @@ I am interested in the optimization aspect of <strong>Deep Learning</strong>, an
 Throughout my journey, I've had the privilege to work on interesting projects, which I plan on explaining here, before they become victims of time's relentless march. You can find them <a href="/notes.html">here</a>
 </p>
 
-<a href="/alt_me">
+<a href="/me">
   <button>Awesomified <em>v 1.23</em></button>
 </a>
 

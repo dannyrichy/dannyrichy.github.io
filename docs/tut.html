@@ -3,7 +3,7 @@ layout: niendefault
 ---
 
 <section>
-  {% assign notes_by_category = site.misc | group_by: "category" %}
+  {% assign notes_by_category = site.tut | group_by: "category" %}
   {% for category in notes_by_category %}
   <h3>{{ category.name | escape }}</h3>
   <ul>
