@@ -312,12 +312,12 @@ img[alt=profileimg] {
 .download-link {
   text-decoration: none;
   /* Remove the default underline */
-  border-bottom: 2px dotted #000;
+  border-bottom: 2px dotted #333;
   /* Add a dotted underline */
 }
 
 .download-link:hover {
-  border-bottom: 2px dotted #333;
+  border-bottom: 2px solid #333;
   /* Darker dotted underline on hover */
 }
 
