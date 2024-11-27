@@ -324,3 +324,29 @@ pre>code {
   font-size: 24px;
   color: #fff;
 }
+
+button {
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #eb0801;
+  font-size: 0.8rem;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  box-shadow: 0px 8px 0px #b00501, 0px 12px 15px rgba(0, 0, 0, 0.2);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+button:active {
+  background-color: rgb(255, 56, 86);
+  /*50, 168, 80*/
+  box-shadow: 0px 8px 0px #b00501, 0px 12px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(5px);
+  transition: 200ms;
+}

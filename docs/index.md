@@ -22,6 +22,11 @@ Throughout my journey, I've had the privilege to work on interesting projects, w
 </p>
 ---
 
+<a href="/alt_me">
+  <button>Awesomified <em>v1.23</em></button>
+</a>
+
+
 ## News
 
 - Cooking 🍳

@@ -9,7 +9,7 @@ layout: niendefault
 <p style="text-align: justify;">
   This is the alternate side meant to track all other things
 </p>
-{% for note in site.misc %}
-  <a href="{{ note.url | relative_url }}" class="note-link">{{ note.title | escape }}</a>
-  {% unless forloop.last %}, {% endunless %}
-{% endfor %}
+
+<a href="/">
+  <button>Borified <em>v0.23</em></button>
+</a>
