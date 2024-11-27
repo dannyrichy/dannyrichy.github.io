@@ -9,11 +9,11 @@ Date: 27/11/2024
 
 Intention of this page is to summarize the project I carried out for the course [Music Informatics](https://www.kth.se/student/kurser/kurs/DT2470?l=en){:target="_blank"}. The detailed report can be found [here](https://github.com/Adhithyan8/musical-shrooms/blob/master/Group-13-project-report.pdf){:target="_blank"}.
 
-### Prelude
+#### Prelude
 
 Using deep learning models to directly process a music track is challenging due to the large number of data points it contains. For instance, consider this [file](https://sound-effects.bbcrewind.co.uk/search?q=NHU05104233){:target="_blank"}. The file has a [sampling rate](https://manual.audacityteam.org/man/sample_rates.html){:target="_blank"}  of 44100 Hz, meaning there are 44,100 data points per second. With a total duration of 51 seconds, one channel contains 2,249,100 data points. (You can use this [python library](https://pypi.org/project/pydub/){:target="_blank"} to experiment with audio files.) By comparison, an image in the ImageNet dataset typically has dimensions of 224x224, amounting to 150,528 data points (considering 3 channels).
 
-**Spectrogram**
+#### Spectrogram
 
 Powering down your brain to the absolute minimum, if someone were asked what comes to mind when they hear time series data, I’m pretty sure they would say [Fourier transform](https://en.wikipedia.org/wiki/Fourier_analysis){:target="_blank"}. Performing a [Discrete Fourier Transform (DFT)](https://en.wikipedia.org/wiki/Discrete_Fourier_transform){:target="_blank"} outputs data in the Frequency-Magnitude domain (still 2D). Performing DFT on an entire file, however, would require significant computational power. Therefore, one typically uses the [Short-Time Fourier Transform (STFT)](https://en.wikipedia.org/wiki/Short-time_Fourier_transform){:target="_blank"}, which computes DFT for every pre-defined window size (usually after applying a window function, such as the Hann window). This results in 3D data, where, in addition to frequency and magnitude, there is also a time axis that indicates the start time of each window. The resulting data is called spectrogram and looks like this (taken from wikipedia)
 
