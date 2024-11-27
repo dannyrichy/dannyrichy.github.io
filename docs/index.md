@@ -22,7 +22,7 @@ Throughout my journey, I've had the privilege to work on interesting projects, w
 </p>
 
 <a href="/me">
-  <button>Awesomified <em>v 1.23</em></button>
+  <button>Awesomified_<em>v1.23</em></button>
 </a>
 
 ---

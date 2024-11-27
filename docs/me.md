@@ -16,5 +16,5 @@ layout: niendefault
 I hate to put this here, but I understand if you want to be the kind of person who prefers the boring version of this.
 
 <a href="/">
-  <button>Borified <em>v 0.23</em></button>
+  <button>Borified_<em>v0.23</em></button>
 </a>
