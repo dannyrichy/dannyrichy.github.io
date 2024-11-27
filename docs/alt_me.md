@@ -5,10 +5,7 @@ layout: niendefault
   <img src="/assets/profile_blur.jpg" alt="profile image" />
 </div>
 
-# DANNY BOY
-<p style="text-align: justify;">
-  This is the alternate side meant to track all other things
-</p>
+# DANNY _BOY_
 
 <p style="text-align: justify;"> Right now, I'm exploring a subspace where <strong>Federated Learning</strong> meets <strong>Green Energy</strong> at <a href="https://www.inria.fr/fr/centre-inria-universite-cote-azur" target="_blank">INRIA, France</a>, alongside the awesome <a href="http://www-sop.inria.fr/members/Giovanni.Neglia/" target="_blank"><strong>Dr. Giovanni Neglia</strong></a> and Dr. Charlotte Rodriguez. My academic journey’s been a bit like the trajectory of stochastic gradient descent with a large learning rate—erratic, but definitely exciting. I've earned an M.Sc. in <strong>Machine Learning</strong> from <a href="https://www.kth.se/" target="_blank">KTH Sweden</a>. I heard a gammal kvinna pronounce this as "Ko-Tay-Ho". She was really surprised to find a person from the equatorial region, I mean I was surprised too. Anyway, back to the academics... *<*queue drum roll*>* In an unrelated twist, I also have a B.Tech degree in <strong>Mechanical Engineering</strong> with a minor in <strong>Systems Engineering</strong> from <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>. Tbh, I learnt a lot in my undergrad, from making art with Photoshop and Illustrator (I was a graphic designer for IITM's cultural festival and a handful of startups) to coding in python to data science (maybe this is related to where I have ended up now). I prioritize leading a life that is a mix of logic, creativity, problem-solving, learning about different cultures and a lot of <strong>geeking</strong>. I am happy I developed the habit of exploring completely random things.</p>
 

@@ -18,6 +18,6 @@ collections:
     output: true # This ensures each item gets its own page
     permalink: /notes/:name # Optional: Sets the URL structure for each note
   
-  misc:
+  tut:
     output: true # This ensures each item gets its own page
-    permalink: /misc/:name # Optional: Sets the URL structure for each note
+    permalink: /tut/:name # Optional: Sets the URL structure for each note
