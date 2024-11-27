@@ -325,6 +325,18 @@ pre>code {
   color: #fff;
 }
 
+.download-link {
+  text-decoration: none;
+  /* Remove the default underline */
+  border-bottom: 2px dotted #eb0801;
+  /* Add a dotted underline */
+}
+
+.download-link:hover {
+  border-bottom: 2px solid #eb0801;
+  /* Darker dotted underline on hover */
+}
+
 button {
   padding: 17px 40px;
   border-radius: 10px;
