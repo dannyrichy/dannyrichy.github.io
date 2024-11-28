@@ -23,9 +23,44 @@ The above can be viewed as an image, thus providing a means to loosely view an a
 
 #### Get to the point Danny
 
-Out in the wild there are bunch of music taggers like  [Fully Convolutional Network](https://arxiv.org/abs/1606.00298){:target="_blank"}, [Musicnn](https://arxiv.org/abs/1711.02520){:target="_blank"}, [Convolutional Recurrent Neural Network](https://arxiv.org/abs/1609.04243){:target="_blank"}, [Self-attention based Network](https://arxiv.org/abs/1906.04972){:target="_blank"}, [Harmonic CNN](https://ieeexplore.ieee.org/document/9053669){:target="_blank"}, [Sample-level CNN](https://arxiv.org/abs/1703.01789){:target="_blank"} and [Sample-level CNN with Squeeze and Excitation layers](https://arxiv.org/abs/1710.10451){:target="_blank"}. But what's **tagging**, welp it can be anything from genre to mood. The models considered above have their own tagging labels....... ***wait, WHAT?***. Yes, but our aim is to look at the penultimate layer to check ***WHAT ON EARTH DO THEY LEARN?***. In Academic parlance, this layer gives the representation of the input. *Representation learning* as they call it, is the viewpoint that all the deep learning architecture learns is ways to project highly complex data into some $$ \mathbb{R}^d $$ space. 
+Out in the wild there are bunch of music taggers like  [Fully Convolutional Network](https://arxiv.org/abs/1606.00298){:target="_blank"}, [Musicnn](https://arxiv.org/abs/1711.02520){:target="_blank"}, [Convolutional Recurrent Neural Network](https://arxiv.org/abs/1609.04243){:target="_blank"}, [Self-attention based Network](https://arxiv.org/abs/1906.04972){:target="_blank"}, [Harmonic CNN](https://ieeexplore.ieee.org/document/9053669){:target="_blank"}, [Sample-level CNN](https://arxiv.org/abs/1703.01789){:target="_blank"} and [Sample-level CNN with Squeeze and Excitation layers](https://arxiv.org/abs/1710.10451){:target="_blank"}. But what's **tagging**, welp it can be anything from genre to mood. We consider the models trained on [MTG-Jamendo Dataset](https://mtg.github.io/mtg-jamendo-dataset/){:target="_blank"}, which has the following tagging class:
 
-Our aim is to see how well these taggers generalize. We take the help of [GTZAN dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification){:target="_blank"} and check if they form clusters without the knowledge of true genre
+| Genre             | Instrument       | Mood/Theme   |
+|-------------------|------------------|--------------|
+| rock              | voice            | film         |
+| pop               | synthesizer      | relaxing     |
+| classical         | piano            | emotional    |
+| popfolk           | guitar           | energetic    |
+| funk              | strings          | happy        |
+| ambient           | keyboard         |              |
+| chillout          | violin           |              |
+| downtempo         | bass             |              |
+| easylistening     | computer         |              |
+| electronic        | drummachine      |              |
+| lounge            | drums            |              |
+| triphop           | electricguitar   |              |
+| techno            | acousticguitar   |              |
+| newage            | electricpiano    |              |
+| jazz              |                  |              |
+| metal             |                  |              |
+| alternative       |                  |              |
+| experimental      |                  |              |
+| soundtrack        |                  |              |
+| world             |                  |              |
+| trance            |                  |              |
+| orchestral        |                  |              |
+| hiphop            |                  |              |
+| instrumentalpop   |                  |              |
+| reggae            |                  |              |
+| dance             |                  |              |
+| folk              |                  |              |
+| poprock           |                  |              |
+| indie             |                  |              |
+| house             |                  |              |
+| atmospheric       |                  |              |
+
+Our aim is to see how well these taggers generalize. We take the help of [GTZAN dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification){:target="_blank"} and check if they form natural clusters  without the knowledge of the true clusters:*Blues, Classical, Country, Disco, Hiphop, Jazz, Metal, Pop, Reggae and Rock*. Our aim is to now learn `WHAT ON EARTH DO THEY LEARN?`. In Academic parlance, this layer gives the representation of the input. *Representation learning* as they call it, is the viewpoint that all the deep learning architecture learns is ways to project highly complex data into some $$ \mathbb{R}^d $$ space. 
+
 
 #### Really really exciting part I
 
