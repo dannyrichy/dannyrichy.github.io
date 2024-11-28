@@ -8,6 +8,6 @@ This page serves as a collection of topics I find interesting, and as such, they
 {% for category in notes_by_category %}
 <h3>{{ category.name | escape }}</h3>
 {% for note in category.items %}
-<a href="{{ note.url | relative_url }}" class="download-link" style="color:#333"><i class="fa-regular fa-file-lines" style="color: #333;"></i> {{ note.title | escape }}</a>
+<a href="{{ note.url | relative_url }}" class="download-link" style="color:#eb0801"><i class="fa-regular fa-file-lines" style="color: #eb0801;"></i> {{ note.title | escape }}</a>
 {% endfor %}
 {% endfor %}
