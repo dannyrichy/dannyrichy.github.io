@@ -208,12 +208,14 @@ table {
   width: 100%;
   border: 1px solid #ccc;
   border-collapse: collapse;
+  font-size: 0.8rem;  /* Reduced font size */
 }
 
 td,
 th {
   padding: .25rem .5rem;
   border: 1px solid #ccc;
+  font-size: 0.8rem;  /* Reduced font size */
 }
 
 pre,
