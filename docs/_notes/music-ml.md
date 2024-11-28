@@ -81,9 +81,9 @@ All that is fine, but what happens if we throw non-Western songs at it? Will it 
 
 Turns out, it still organizes them into clusters. To test this, we used [Carnatic songs](https://en.wikipedia.org/wiki/Carnatic_music){:target="_blank"}, [Gaana songs](https://en.wikipedia.org/wiki/Gaana){:target="_blank"} and [Carnatic-Rock](https://youtu.be/oESni03J8h8){:target="_blank"}. We hoped that Gaana songs would be placed near rap and/or reggae, as we felt both genres share roots in being music of the masses. Similarly, we expected Carnatic music to be close to the classical genre due to its strong emphasis on structure. And, as the name suggests, we anticipated that Carnatic Rock would fall somewhere between classical and rock music. 
 
-![fig](/assets/music_thingy/ood_attention.png) ![fig](/assets/music_thingy/ood_crnn.png) ![fig](/assets/music_thingy/ood_fcn.png) ![fig](/assets/music_thingy/ood_hcnn.png) ![fig](/assets/music_thingy/ood_musicnn.png) ![fig](/assets/music_thingy/ood_sample.png) ![fig](/assets/music_thingy/ood_se.png)
+    Carnatic formed its own cluster, closer to classical music, blues, and metal. Surprisingly, Gaana and Carnatic music are placed together (maybe due to geographic influence), and, as expected, Gaana is positioned close to reggae and hip-hop. Likewise, Carnatic Rock was placed in a space spanning both the Rock and Carnatic clusters, but in my opinion, it leans more towards rock than Carnatic.
 
-Carnatic formed its own cluster, separate from the pigeon, but as expected, Gaana was placed close to reggae and hip-hop. Likewise, Carnatic Rock was positioned in a space spanning both the Rock and Carnatic clusters.
+![fig](/assets/music_thingy/ood_attention.png) ![fig](/assets/music_thingy/ood_crnn.png) ![fig](/assets/music_thingy/ood_fcn.png) ![fig](/assets/music_thingy/ood_hcnn.png) ![fig](/assets/music_thingy/ood_musicnn.png) ![fig](/assets/music_thingy/ood_sample.png) ![fig](/assets/music_thingy/ood_se.png)
 
 #### Things we liked to explore
 
