@@ -213,7 +213,7 @@ table {
 td,
 th {
   padding: .25rem .5rem;
-  text-align: left; 
+  text-align: left;
 }
 
 pre,
@@ -302,22 +302,10 @@ pre>code {
   /* Adds a dark line under the selected section */
 }
 
-/* Style for the image container */
-.img-container {
-  position: relative;
-  display: inline-block;
-  /* Ensures the container size matches the image */
+img[alt=profileimg] {
+  display: inline;
   width: 150px;
   height: 150px;
-}
-
-/* Style for the image */
-.img-container img {
-  display: inline;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* Ensures the image covers the container properly */
 }
 
 .back-link {
@@ -341,7 +329,7 @@ button {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   transition: all 0.3s ease;
-  box-shadow: -8px 8px 0px #b00501,-7px 7px 0px #b00501,-6px 6px 0px #b00501,-5px 5px 0px #b00501,-4px 4px 0px #b00501,-3px 3px 0px #b00501,-2px 2px 0px #b00501,-1px 1px 0px #b00501;
+  box-shadow: -8px 8px 0px #b00501, -7px 7px 0px #b00501, -6px 6px 0px #b00501, -5px 5px 0px #b00501, -4px 4px 0px #b00501, -3px 3px 0px #b00501, -2px 2px 0px #b00501, -1px 1px 0px #b00501;
   color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
@@ -349,15 +337,63 @@ button {
 button:hover {
   background-color: rgb(255, 56, 86);
   /*50, 168, 80*/
-  box-shadow: -7px 7px 0px #b00501,-6px 6px 0px #b00501,-5px 5px 0px #b00501,-4px 4px 0px #b00501,-3px 3px 0px #b00501;
-  transform: translate(-2px, 2px); /* Move diagonally down and left */
-  transition: transform 400ms ease; /* Only animate the transform property */
+  box-shadow: -7px 7px 0px #b00501, -6px 6px 0px #b00501, -5px 5px 0px #b00501, -4px 4px 0px #b00501, -3px 3px 0px #b00501;
+  transform: translate(-2px, 2px);
+  /* Move diagonally down and left */
+  transition: transform 400ms ease;
+  /* Only animate the transform property */
 }
 
 button:active {
   background-color: rgb(255, 56, 86);
   /*50, 168, 80*/
-  box-shadow: -6px 6px 0px #b00501,-5px 5px 0px #b00501;
-  transform: translate(-4px, 4px); /* Move diagonally down and left */
-  transition: transform 200ms ease; /* Only animate the transform property */
+  box-shadow: -6px 6px 0px #b00501, -5px 5px 0px #b00501;
+  transform: translate(-4px, 4px);
+  /* Move diagonally down and left */
+  transition: transform 200ms ease;
+  /* Only animate the transform property */
+}
+
+.danny-boy {
+  font-size: 7rem;
+  color: #fff;
+  text-shadow:
+    -15px 15px 0px #b00501,
+    -14px 14px 0px #b00501,
+    -13px 13px 0px #b00501,
+    -12px 12px 0px #b00501,
+    -11px 11px 0px #b00501,
+    -10px 10px 0px #b00501,
+    -9px 9px 0px #b00501,
+    -8px 8px 0px #b00501,
+    -7px 7px 0px #b00501, 
+    -6px 6px 0px #b00501, 
+    -5px 5px 0px #b00501,
+    -4px 4px 0px #b00501,
+    -3px 3px 0px #b00501,
+    -2px 2px 0px #b00501, 
+    -1px 1px 0px #b00501, 
+    -16px 16px 0px #b00501, 
+    -17px 17px 0px #b00501, 
+    -18px 18px 0px #b00501, 
+    -19px 19px 0px #b00501, 
+    -20px 20px 0px #b00501, 
+    -21px 21px 0px #b00501, 
+    -22px 22px 0px #b00501, 
+    -23px 23px 0px #b00501, 
+    -24px 24px 0px #b00501, 
+    -25px 25px 0px #b00501, 
+    -26px 26px 0px #b00501, 
+    -27px 27px 0px #b00501, 
+    -28px 28px 0px #b00501, 
+    -29px 29px 0px #b00501,
+    -30px 30px 0px #b00501,
+    -31px 31px 0px #b00501, 
+    -32px 32px 0px #b00501,
+    -33px 33px 0px #b00501,
+    -34px 34px 0px #b00501,
+    -35px 35px 0px #b00501,
+    3px -3px 0px #b00501, 
+    2px -2px 0px #b00501, 
+    1px -1px 0px #b00501;
 }
