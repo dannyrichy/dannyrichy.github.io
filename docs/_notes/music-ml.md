@@ -59,7 +59,7 @@ Out in the wild there are bunch of music taggers like  [Fully Convolutional Netw
 | house             |                  |              |
 | atmospheric       |                  |              |
 
-Our aim is to see how well these taggers generalize. We take the help of [GTZAN dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification){:target="_blank"} and check if they form natural clusters  without the knowledge of the true clusters:*Blues, Classical, Country, Disco, Hiphop, Jazz, Metal, Pop, Reggae and Rock*. Our aim is to now learn `WHAT ON EARTH DO THEY LEARN?`. In Academic parlance, this layer gives the representation of the input. *Representation learning* as they call it, is the viewpoint that all the deep learning architecture learns is ways to project highly complex data into some $$ \mathbb{R}^d $$ space. 
+Our aim is to see how well these taggers generalize. We take the help of [GTZAN dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification){:target="_blank"} and check if they form natural clusters  without the knowledge of the true clusters:***Blues, Classical, Country, Disco, Hiphop, Jazz, Metal, Pop, Reggae and Rock***. Our aim is to now learn **WHAT ON EARTH DO THEY LEARN?**. In Academic parlance, this layer gives the representation of the input. *Representation learning* as they call it, is the viewpoint that all the deep learning architecture learns is ways to project highly complex data into some $$ \mathbb{R}^d $$ space. 
 
 
 #### Really really exciting part I
