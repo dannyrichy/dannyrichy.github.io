@@ -9,7 +9,7 @@ This page serves as a collection of topics I find interesting, and as such, they
 <h3>{{ category.name | escape }}</h3>
 <div>
 {% for note in category.items %}
-<a href="{{ note.url | relative_url }}" class="download-link" style="font-size:0.8rem;color:#333"><i class="fa-regular fa-file-lines" style="color: #333;"></i> {{ note.title | escape }}</a><br>
+<a href="{{ note.url | relative_url }}" class="download-link" style="font-size:0.8rem"><i class="fa-regular fa-file-lines"></i> {{ note.title | escape }}</a><br>
 {% endfor %}
 </div>
 {% endfor %}
