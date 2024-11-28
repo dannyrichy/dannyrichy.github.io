@@ -64,13 +64,15 @@ Our aim is to see how well these taggers generalize. We take the help of [GTZAN 
 
 #### Really really exciting part I
 
-I will skip some essential yet perhaps boring details about data processing that you can find [here](https://github.com/Adhithyan8/musical-shrooms/blob/master/Group-13-project-report.pdf){:target="_blank"} in the methodology section. Lo and behold, the clusters formed quite nicely (Actually, maybe nicely) when projected using [tSNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding){:target="_blank"}
+I will skip some essential yet perhaps boring details about data processing that you can find [here](https://github.com/Adhithyan8/musical-shrooms/blob/master/Group-13-project-report.pdf){:target="_blank"} in the methodology section. Lo and behold, the clusters formed quite nicely (Actually, maybe nicely) when projected using [tSNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding){:target="_blank"}.
+
+    Is it just me, or do you also see a pigeon 🕊️ in the representation? It's interesting to note that the classical music cluster is farther away from the rest of the clusters. Jazz is placed close to classical in almost all the models. Blues seem to be scattered across jazz, country (Hmm, I’m not sure if this makes sense, but okay), and maybe reggae? Hip-hop and pop seem to be represented close to each other, with disco wedging in between them. Rock is placed between metal (I mean, rock and metal seem the same to me) and country. Anyway, a music anthropologist would be better equipped to judge whether this really makes sense, but it makes all the sense I need. 
+
+Interestingly, it roughly organizes these genres in a manner similar to this [map](https://musicmap.info/){:target="_blank"}.
 
 ![fig](/assets/music_thingy/tsne_attention.png) ![fig](/assets/music_thingy/tsne_crnn.png) ![fig](/assets/music_thingy/tsne_fcn.png) ![fig](/assets/music_thingy/tsne_hcnn.png) ![fig](/assets/music_thingy/tsne_musicnn.png) ![fig](/assets/music_thingy/tsne_sample.png) ![fig](/assets/music_thingy/tsne_se.png)
 
-Is it just me, or do you also see a pigeon in the representation? Here's a picture of [pigeon](https://www.warrenphotographic.co.uk/photgraphy/bigs/06614-white-pigeon-in-flight.jpg){:target="_blank"} for comparison. Maybe deep learning models have revealed that all music is a path to peace... XD. Well, time to come back to reality: ***Ground Control to Major Tom...***
-
-Interestingly, it roughly organizes these genres in a manner similar to this [map](https://musicmap.info/){:target="_blank"}. We used [Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm){:target="_blank"} to compare our clusters with true cluster. Imo, it is too boring to discuss about them here, you can find it again in the [report](https://github.com/Adhithyan8/musical-shrooms/blob/master/Group-13-project-report.pdf){:target="_blank"}
+We used [Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm){:target="_blank"} to compare our clusters with true cluster. Imo, it is too boring to discuss about them here, you can find it again in the [report](https://github.com/Adhithyan8/musical-shrooms/blob/master/Group-13-project-report.pdf){:target="_blank"}
 
 #### Really really exciting part II
 
