@@ -13,7 +13,7 @@ layout: default
   <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>.
 </p>
 
-<p>In a previous role, I worked as a <em>Business Analytics Consultant</em> and <em>Data Miner</em> for a startup in the recommendation engine space. I also served as a <em>Consultant Data Scientist</em>, focusing on industrial applications. These experiences helped shape my interests and develop my value-system.
+<p style="text-align: justify;">In a previous role, I worked as a <em>Business Analytics Consultant</em> and <em>Data Miner</em> for a startup in the recommendation engine space. I also served as a <em>Consultant Data Scientist</em>, focusing on industrial applications. These experiences helped shape my interests and develop my value-system.
 </p>
 
 <p style="text-align: justify;">
