@@ -88,8 +88,7 @@ title: "CV"
 
 ## Projects
 
-#### Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)  
-  Critically evaluated the need for deep learning models using *VAE* architectures to detect anomalies in time series data; brought out the need for better benchmark datasets. Investigated the effectiveness of the "point-adjusted" metric used by the research community; highlighted the need for a stable metric to help champion deep learning models. <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; text-decoration: none;"><i class="fa-regular fa-file-lines" style=" vertical-align: middle;color: #333;"></i></a>
+<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" class="download-link"> Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis) </a></h4>
 
 <h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="/notes/music-ml" class="download-link"> Shenanigans with Learnt Representations of Music Taggers </a><a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
 
