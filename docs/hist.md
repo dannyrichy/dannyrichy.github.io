@@ -11,7 +11,7 @@ title: "CV"
 
 #### M.Sc in Machine Learning  
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
-  <span>KTH Royal Institute of Technology, Stockholm, Sweden <a href="https://www.kth.se/en" target="_blank"><i class="fa-solid fa-square-up-right" style="color:#333; margin-left: 3px;"></i></a></span>
+  <span>KTH Royal Institute of Technology, Stockholm, Sweden <a href="https://www.kth.se/en" target="_blank"><i class="fa-solid fa-square-up-right" style="color:#eb0801; margin-left: 3px;"></i></a></span>
   <span>2021 – 2023</span>
 </div>
 
@@ -21,7 +21,7 @@ title: "CV"
 
 #### B.Tech in Mechanical Engineering
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
-  <span>Indian Institute of Technology - Madras, Chennai, India <a href="https://www.iitm.ac.in/" target="_blank"><i class="fa-solid fa-square-up-right" style="color:#333; margin-left: 3px;"></i></a></span>
+  <span>Indian Institute of Technology - Madras, Chennai, India <a href="https://www.iitm.ac.in/" target="_blank"><i class="fa-solid fa-square-up-right" style="color:#eb0801; margin-left: 3px;"></i></a></span>
   <span>2014 – 2018</span>
 </div>
 
@@ -88,23 +88,19 @@ title: "CV"
 
 ## Projects
 
-#### Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis)  
-  Critically evaluated the need for deep learning models using *VAE* architectures to detect anomalies in time series data; brought out the need for better benchmark datasets. Investigated the effectiveness of the "point-adjusted" metric used by the research community; highlighted the need for a stable metric to help champion deep learning models. <a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" target="_blank" style="color: #333; text-decoration: none;"><i class="fa-regular fa-file" style=" vertical-align: middle;"></i></a>
+<h4><i class="fa-regular fa-file-lines" style="color: #eb0801;"></i><a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" class="download-link"> Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis) </a></h4>
 
-#### Shenanigans with Learnt Representations of Music Taggers  
-  Inspected the quality of the GTZAN dataset (public dataset for music genre recognition) using learned representations from multiple deep-learning-based music taggers. Evaluated the clusterability of the learned representations using KNN and GMM against information provided by <a href="https://musicmap.info/" target="blank_">Music Map</a>; Auditorily inspected the generalisability of these music taggers using out-of-distribution data like non-Western music. <a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
+<h4><i class="fa-regular fa-file-lines" style="color: #eb0801;"></i><a href="/notes/music-ml" class="download-link"> Shenanigans with Learnt Representations of Music Taggers </a><a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #eb0801; text-decoration: none;"><i class="fab fa-github" style="color: #eb0801;"></i></a></h4>
 
-#### Git Bi-sect: Dissecting Git Re-basin Paper  
-  Reproduced the "Git Re-basin" paper <a href="https://arxiv.org/pdf/2209.04836" target="_blank">(Ainsworth et al.)</a>, verifying low loss barrier between deep learning models after removing permutation symmetries; conducted an in-depth analysis to explore the evolution of Linear Mode Connectivity as training progresses; discovered the importance of hyper-parameters on finding permutations; negated claims of methodology not working on MNIST. <a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
+<h4><i class="fa-regular fa-file-lines" style="color: #eb0801;"></i><a href="https://github.com/dannyrichy/git-bisect/blob/master/Git%20Bi-sect.pdf" class="download-link"> Git Bi-sect: Dissecting Git Re-basin Paper </a><a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #eb0801; text-decoration: none;"><i class="fab fa-github" style="color: #eb0801;"></i></a></h4>
 
-#### Deep Learning Model Extraction Attack  
-  Assessed model extraction attacks on VGG and ResNet models. Designed and implemented an algorithm to identify a core set; investigated the number of samples needed to extract the model. Executed privacy attacks on the extracted model to assess the vulnerability of the victim model. <a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
+<h4><i class="fa-regular fa-file-lines" style="color: #eb0801;"></i><a href="https://github.com/dannyrichy/dl-model-extraction/blob/master/DL_Project_Group_42_v1.1.pdf" class="download-link"> Deep Learning Model Extraction Attack  </a><a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #eb0801; text-decoration: none;"><i class="fab fa-github" style="color: #eb0801;"></i></a></h4>
 
 #### Network Representation Learning  
-  Performed a comparative study of unsupervised network representation learning algorithms like [LINE](/notes/line-graph-ml.html), [NetMF](/notes/netmf.html), [Node2vec](/notes/node2vec.html), [Deepwalk](/notes.deepwalk.html), and [GraphSage](/notes/graphsage.html) for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
+  Performed a comparative study of unsupervised network representation learning algorithms like [LINE](/notes/line-graph-ml.html), [NetMF](/notes/netmf.html), [Node2vec](/notes/node2vec.html), [Deepwalk](/notes.deepwalk.html), and [GraphSage](/notes/graphsage.html) for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #eb0801; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;color: #eb0801;"></i></a>
 
 #### Graphons: Efficient Graph Embeddings  
-  Explored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;"></i></a>
+  Explored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #eb0801; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;color: #eb0801;"></i></a>
 
 ---
 
