@@ -8,7 +8,7 @@ This page serves as a collection of topics I find interesting, and as such, they
 {% for category in notes_by_category %}
 <div>
 {% for note in category.items %}
-<a href="{{ note.url | relative_url }}" class="download-link" style="font-size:120px;font-weight:900">{{ note.title | escape }}</a><br>
+<a href="{{ note.url | relative_url }}" class="danny-boy" style="font-size:120px;font-weight:900;border-bottom: 2px dotted #eb0801;">{{ note.title | escape }}</a><br>
 {% endfor %}
 </div>
 {% endfor %}
