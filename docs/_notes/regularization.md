@@ -18,7 +18,9 @@ $$
 
 Here, $$ \mathcal{L}(x; \theta) $$ denotes the primary loss function (e.g., cross-entropy or mean squared error), and the second term represents the $$ L_2 $$-norm (but it can be $$ L_1 $$ norm too) regularization, where $$ \lambda $$ is the regularization strength.
 
-`Quick notes: The $L_2$​-norm regularization helps prevent weights from becoming too large, effectively controlling overfitting and ensuring weights stay closer to the origin. On the other hand, the $L1$​-norm encourages sparsity in the weights, driving many of them to zero.`
+```
+Quick notes: The $L_2$​-norm regularization helps prevent weights from becoming too large, effectively controlling overfitting and ensuring weights stay closer to the origin. On the other hand, the $L1$​-norm encourages sparsity in the weights, driving many of them to zero.
+```
 
 Now the viewpoints as elucidated in the tweet are
 - Optimization theory
