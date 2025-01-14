@@ -3,7 +3,9 @@ layout: default
 title: Different view points of regularization
 category: "In Too Deep (Learning)"
 ---
-# How Regularization can be explained
+# How Regularization ?
+
+![profileimg](/assets/is_regularisation.webp)
 
 Date: 14/01/2025
 
