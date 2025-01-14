@@ -76,9 +76,11 @@ From a Bayesian perspective, regularization can be understood as incorporating p
 
 In Bayesian learning, we seek the posterior distribution $$ P(\theta \| \mathcal{D}) $$, which balances the prior $$ P(\theta) $$ (what we believe about $$ \theta $$ before seeing data) and the likelihood $$ P(\mathcal{D} \| \theta) $$ (what the data tells us about $$ \theta $$). However, we are often concerned with the mode of posterior distribution,
 $$
-\theta_{MAP} = \argmax_{\theta} P(\theta \| \mathcal{D}) \\
-= \argmax_{\theta} P(\mathcal{D} \| \theta)P(\theta) \\
-= \argmin_{\theta} \[-\log{P(\mathcal{D} \| \theta)} -\log{P(\theta)}\]
+\begin{aligned}
+\theta_{MAP} &= \argmax_{\theta} P(\theta \mid \mathcal{D}) \\
+&= \argmax_{\theta} P(\mathcal{D} \mid \theta) P(\theta) \\
+&= \argmin_{\theta} \left[ -\log P(\mathcal{D} \mid \theta) - \log P(\theta) \right]
+\end{aligned}
 $$
 
 Now, the term $$ -\log{P(\mathcal{D} \| \theta)} $$ corresponds to the loss function like MSE or cross entropy. The term $$ -\log{P(\theta)} $$ acts as regularizer that penalizes certain values of $$ \theta $$ depending on what our prior distribution is. If our prior is Gaussian $$ \mathcal{N}(o,\sigma^2) $$, then the $$ - \log{P(\theta)} \propto \frac{\|\theta\|^2}{2\sigma^2}$$ which is same as $$ \lambda \|\theta\|_2^2$$. If the prior were Laplacian $$ \mathcal{L}(0,b) $$, then $$ - \log{P(\theta)} \propto \frac{\abs{\theta}}{b}$$ which is same as $$ \lambda \abs{\theta} $$. 
