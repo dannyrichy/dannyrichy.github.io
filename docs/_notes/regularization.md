@@ -66,15 +66,15 @@ where $$ \lambda_i \geq 0 \forall i $$ are multipliers for inequality constraint
 
 From a Bayesian perspective, regularization can be understood as incorporating prior knowledge about the model parameters into the learning process. This connection arises naturally through the maximum a posteriori (MAP) estimation framework. 
 
-**Stating the obvious**: The Bayes theorem states that $$ P(\theta \| \mathcal{D}) = \frac{P(\mathcal{D}\| \theta )P(\theta)}{P(\mathcal{D})} $$, where
-- $$ P(\theta \| \mathcal{D}) $$ is the posterior distribution of the parameters given the data.
-- $$ P(\mathcal{D} \| \theta) $$ is the likelihood of the data given the parameters.
+**Stating the obvious**: The Bayes theorem states that $$ P(\theta  \vert \mathcal{D}) = \frac{P(\mathcal{D} \vert \theta )P(\theta)}{P(\mathcal{D})} $$, where
+- $$ P(\theta  \vert \mathcal{D}) $$ is the posterior distribution of the parameters given the data.
+- $$ P(\mathcal{D}  \vert \theta) $$ is the likelihood of the data given the parameters.
 - $$ P(\theta) $$ is the prior distribution over the parameters
 - $$ P(\mathcal{D}) $$ is called the evidence or the normalizing constant
 
 ** Danny *sighed* as he remembered his past Kafkaesque ordeal endured from the Bayesian bureaucrats for not stating the obvious.
 
-In Bayesian learning, we seek the posterior distribution $$ P(\theta \| \mathcal{D}) $$, which balances the prior $$ P(\theta) $$ (what we believe about $$ \theta $$ before seeing data) and the likelihood $$ P(\mathcal{D} \| \theta) $$ (what the data tells us about $$ \theta $$). However, we are often concerned with the mode of posterior distribution,
+In Bayesian learning, we seek the posterior distribution $$ P(\theta  \vert \mathcal{D}) $$, which balances the prior $$ P(\theta) $$ (what we believe about $$ \theta $$ before seeing data) and the likelihood $$ P(\mathcal{D}  \vert \theta) $$ (what the data tells us about $$ \theta $$). However, we are often concerned with the mode of posterior distribution,
 $$
 \begin{aligned}
 \theta_{MAP} &= \text{argmax}_{\theta} P(\theta \mid \mathcal{D}) \\
@@ -83,7 +83,7 @@ $$
 \end{aligned}
 $$
 
-Now, the term $$ -\log{P(\mathcal{D} \| \theta)} $$ corresponds to the loss function like MSE or cross entropy. The term $$ -\log{P(\theta)} $$ acts as regularizer that penalizes certain values of $$ \theta $$ depending on what our prior distribution is. If our prior is Gaussian $$ \mathcal{N}(o,\sigma^2) $$, then the $$ - \log{P(\theta)} \propto \frac{\|\theta\|^2}{2\sigma^2}$$ which is same as $$ \lambda \|\theta\|_2^2$$. If the prior were Laplacian $$ \mathcal{L}(0,b) $$, then $$ - \log{P(\theta)} \propto \frac{\abs{\theta}}{b}$$ which is same as $$ \lambda \abs{\theta} $$. 
+Now, the term $$ -\log{P(\mathcal{D}  \vert \theta)} $$ corresponds to the loss function like MSE or cross entropy. The term $$ -\log{P(\theta)} $$ acts as regularizer that penalizes certain values of $$ \theta $$ depending on what our prior distribution is. If our prior is Gaussian $$ \mathcal{N}(o,\sigma^2) $$, then the $$ - \log{P(\theta)} \propto \frac{\|\theta\|^2}{2\sigma^2}$$ which is same as $$ \lambda \|\theta\|_2^2$$. If the prior were Laplacian $$ \mathcal{L}(0,b) $$, then $$ - \log{P(\theta)} \propto \frac{ \vert{\theta}\vert}{b}$$ which is same as $$ \lambda  \vert{\theta}\vert $$. 
 
 Direct constraints like $$ \|\theta\|_2 \le C $$ in optimization can be seen as equivalent to assuming a uniform prior distribution over the feasible set of values. The constraint treats all values within the feasible region as equally likely, offering no additional information about the distribution of the parameters. On the other hand, a Gaussian prior with $$ \lambda = \frac{1}{2\sigma^2}$$ incorporates information about the distribution of the parameters by specifying a belief about their likely values (via the mean and variance of the distribution). This allows for probabilistic tuning of the model based on the chosen prior distribution.
 
