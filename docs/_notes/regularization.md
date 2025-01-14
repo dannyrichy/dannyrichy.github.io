@@ -77,9 +77,9 @@ From a Bayesian perspective, regularization can be understood as incorporating p
 In Bayesian learning, we seek the posterior distribution $$ P(\theta \| \mathcal{D}) $$, which balances the prior $$ P(\theta) $$ (what we believe about $$ \theta $$ before seeing data) and the likelihood $$ P(\mathcal{D} \| \theta) $$ (what the data tells us about $$ \theta $$). However, we are often concerned with the mode of posterior distribution,
 $$
 \begin{aligned}
-\theta_{MAP} &= \argmax_{\theta} P(\theta \mid \mathcal{D}) \\
-&= \argmax_{\theta} P(\mathcal{D} \mid \theta) P(\theta) \\
-&= \argmin_{\theta} \left[ -\log P(\mathcal{D} \mid \theta) - \log P(\theta) \right]
+\theta_{MAP} &= \text{argmax}_{\theta} P(\theta \mid \mathcal{D}) \\
+&= \text{argmax}_{\theta} P(\mathcal{D} \mid \theta) P(\theta) \\
+&= \text{argmin}_{\theta} \left[ -\log P(\mathcal{D} \mid \theta) - \log P(\theta) \right]
 \end{aligned}
 $$
 
