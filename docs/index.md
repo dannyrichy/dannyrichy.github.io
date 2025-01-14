@@ -26,9 +26,10 @@ Throughout my journey, I've had the privilege to work on interesting projects, w
 </a>
 
 ---
-## News
+## Updates
 
-- Cooking 🍳
+- *14/01/2025*: Came across a tweet on regularization that prompted me to write this [post](/notes/regularization) for my own sanity
+- *01/09/2024*: Joined INRIA as Research Intern on Green Federated Learning topic
 
 
 
