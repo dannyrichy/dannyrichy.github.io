@@ -15,21 +15,24 @@ I came across this [tweet](https://x.com/andrew_n_carr/status/187562545402524073
 First, let me rephrase the question for clarity and brevity. The focus is on the $\lambda$ parameter in the optimization framework:
 
 $$
-\min_x \mathcal{L}(x; \theta) + \frac{\lambda}{2} \|x\|_2^2
+\min_{\theta} \mathcal{L}(\mathcal{D}; \theta) + \frac{\lambda}{2} \|\theta\|_2^2
 $$
 
-Here, $$ \mathcal{L}(x; \theta) $$ denotes the primary loss function (e.g., cross-entropy or mean squared error), and the second term represents the $$ L_2 $$-norm (but it can be $$ L_1 $$ norm too) regularization, where $$ \lambda $$ is the regularization strength.
+Here, $$ \mathcal{L}(\mathcal{D}; \theta) $$ denotes the primary loss function (e.g., cross-entropy or mean squared error),and $$ \mathcal{D} $$ represents the dataset used to train the model. The second term represents the $$ L_2 $$-norm (but it can be any $$ L_p $$ norm depending on your objective) regularization, where $$ \lambda $$ is the regularization strength.
 
-```
-Quick notes: The $$ L_2 $$​-norm regularization helps prevent weights from becoming too large, effectively controlling overfitting and ensuring weights stay closer to the origin. On the other hand, the $$ L1 $$​-norm encourages sparsity in the weights, driving many of them to zero.
-```
+**Quick notes**: The $$ L_2 $$​-norm regularization helps prevent weights from becoming too large, effectively controlling overfitting and ensuring weights stay closer to the origin. On the other hand, the $$ L1 $$​-norm encourages sparsity in the weights, driving many of them to zero.
 
 Now the viewpoints as elucidated in the tweet are
 - Optimization theory
 - Bayesian theory 
 - Empirical Risk learning theory (Statistical Learning Theory)
 
+**NOTE:** Over the post, there will be some terms that I too am not super-familiar with but I hope to cover them as much as this post requisites
+
+
 #### Optimization theory perspective
+
+Directly constraining $$ \|\theta\|_2 \le C $$, (where C is some constant) leads to constrained optimization view point, which requisites methods like projection method or Lagrange multiplier method. Whoa.... what is projection method, welp, projection method is the way to treat the objective (the thing that you optimize) as if it is unconstrained and find the closest point in the valid space (points that satisfy the constraints) to the solution. Langrage multiplier on the other hand is a way to convert constrained optimization problem into unconstrained optimization problem.
 
 #### Bayesian theory perspective
 
