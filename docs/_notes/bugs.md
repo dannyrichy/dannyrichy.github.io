@@ -22,5 +22,7 @@ However, I still haven't figured out if this is same as Adam optimizer, coz in A
 
 ---
 #### Likelihood vs probability for continuous distribution
+
 Okay, this is technically not a bug in my understanding, but it still deserves a place here because I did not fully grasp this concept. The PDF function returns the likelihood of a point, not the probability. You can find the probability of an event lying between two values by integrating the PDF between them.
+
 ---
