@@ -13,14 +13,13 @@ Remember when you thought gradient clipping worked like a g.i.f function? (Of co
 
 What is actually done, however, is to bound the gradient within a hypersphere whose radius equals the threshold. To achieve this, you scale the gradient vector by its norm and multiply it by the threshold. Thus,
 $$
-\[
 g' =
 \begin{cases} 
 g & \text{if } \|g\| \leq T, \\
 \frac{T}{\|g\|} g & \text{if } \|g\| > T,
 \end{cases}
-\]
 $$
+
 
 However, I still haven't figured out if this is same as Adam optimizer, coz in Adam optimizer, you have adaptive learning rate for each parameter which is scaled by the moments of gradient. Though they are not entirely same, it feels like they both act using some sort of scaling mechanism.
 ---
