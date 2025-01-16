@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Grokking
-category: "In Too Deep (Learning)"
+category: "Biggus Papyrus"
 ---
 
-## Groking
+## Grokking
 
 Date: 15/01/2025
 
