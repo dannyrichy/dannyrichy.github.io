@@ -30,8 +30,7 @@ title: "CV"
 </div>
 
 ---
-
-## Work Experience
+## Research Experience
 
 #### Research Visit (Internship)
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
@@ -49,6 +48,16 @@ title: "CV"
 
 <p style="text-align: justify;">Tweaked and expanded the transformer-based wildfire detection model trained on satellite images (VIIRS) to encompass new geographic regions.</p>
 
+
+#### Master's Thesis - Scania AB
+  <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
+  <span>Scania AB, Stockholm, Sweden</span>
+  <span>Jun 2022 – Nov 2023</span>
+</div>
+
+<p style="text-align: justify;">Critically evaluated VAE-based deep learning models for anomaly detection in time series, emphasizing the need for better benchmarks and a stable metric over the "point-adjusted" standard</p>
+
+
 #### Teaching Assistant
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
   <span>KTH, Stockholm, Sweden</span>
@@ -57,15 +66,8 @@ title: "CV"
 
 <p style="text-align: justify;">Assisted in tutorials, graded assignments, and prepared course materials for Advanced Machine Learning, Artificial Intelligence, and Search Engines courses</p>
 
-#### Scania Student Intro Program
-  <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
-  <span>Scania AB, Stockholm, Sweden</span>
-  <span>Jun 2022 – Nov 2023</span>
-</div>
 
-<p style="text-align: justify;">Selected for the Scania Student Intro Program, gaining insights into Scania’s operations, sustainability initiatives, and innovation strategies<br>
-<strong>Thesis Worker</strong> Probed learnt representation of State-of-the-art Deep learning models for Time Series anomaly detection use-cases<br>
-<strong>Summer Worker</strong> Developed an MLP model during the summer program to identify faulty components by leveraging diagnostic trouble codes (DTC)</p>
+## Work Experience
 
 #### Data Scientist
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
@@ -73,8 +75,7 @@ title: "CV"
   <span>Sep 2019 – Jun 2021</span>
 </div>
 
-<p style="text-align: justify;"><strong>Smart Pill Manufacturing - Pfizer</strong>: Utilized KNN to estimate APIs/Excipient properties for pills in development; developed Mean Feed Flow predictor using SVR; Implemented an IPython notebook-based and Tkinter tool<br>
-<strong>HVAC Fault Detection system - VOLTAS</strong>: Developed Logistic Regression and Rule-based system; Detected change points using L1-trend filter; Designed and developed web interface using Flask to monitor industrial HVAC systems deployed across India</p>
+<p style="text-align: justify;">Implemented machine learning solutions for pharmaceutical manufacturing; Developed fault detection systems using statistical and ML approaches</p>
 
 #### Business Analytics Consultant
 <div style="display: flex; justify-content: space-between; font-size: small; font-style: italic;">
@@ -82,7 +83,7 @@ title: "CV"
   <span>Jun 2018 – Sep 2019</span>
 </div>
 
-<p style="text-align: justify;">Implemented Customer demographic based clustering to extend recommendations increasing customer coverage to 100 % from 30 %; Developed tunable recommender engine for periodic and ad-hoc business opportunities. Utilized a combination of n-gram and Cologne phonetics algorithms for efficient entity resolution. Achieved an impressive reduction ratio of 7000:1. Utilized Apache Spark to improve the scalability of the recommender engine to process 7M customer transaction records, up from 300K</p>
+<p style="text-align: justify;">Scaled recommender engine to process 7M+ customer transactions using Apache Spark; Utilized a combination of n-gram and Cologne phonetics algorithms for efficient entity resolution</p>
 
 ---
 
@@ -98,8 +99,7 @@ title: "CV"
 
 <h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/graph-ml-project/blob/master/Adv_ML_Project.pdf" class="download-link"> Network Representation Learning  </a><a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
 
-#### Graphons: Efficient Graph Embeddings  
-  Explored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;color: #333;"></i></a>
+<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/graphon" class="download-link"> Graphons: Efficient Graph Embeddings  </a><a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
 
 ---
 
