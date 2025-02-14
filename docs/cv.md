@@ -96,8 +96,7 @@ title: "CV"
 
 <h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/dl-model-extraction/blob/master/DL_Project_Group_42_v1.1.pdf" class="download-link"> Deep Learning Model Extraction Attack  </a><a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
 
-#### Network Representation Learning  
-  Performed a comparative study of unsupervised network representation learning algorithms like [LINE](/notes/line-graph-ml.html), [NetMF](/notes/netmf.html), [Node2vec](/notes/node2vec.html), [Deepwalk](/notes.deepwalk.html), and [GraphSage](/notes/graphsage.html) for node classification and link prediction tasks. <a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;color: #333;"></i></a>
+<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/graph-ml-project/blob/master/Adv_ML_Project.pdf" class="download-link"> Network Representation Learning  </a><a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
 
 #### Graphons: Efficient Graph Embeddings  
   Explored the effectiveness of Graphons (Random Graph Model) as graph embedding by comparing against Graph2Vec for graph downstream tasks. <a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style=" vertical-align: middle;color: #333;"></i></a>
