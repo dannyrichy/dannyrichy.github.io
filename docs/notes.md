@@ -3,8 +3,8 @@ layout: default
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 ## Personal notes
-This page serves as a collection of topics I find interesting, and as such, they may not always be accurate. I would greatly appreciate it if you could email me or raise an issue on GitHub if you find any discrepancies.
 
+The motivation for writing these articles are two-fold. I *suck at writing* -> *improve writing* and want to have *diary(all things ML and math)* -> *short snippets on things I find interesting/important*. I read this [article](https://perceiving-systems.blog/en/post/writing-a-good-scientific-paper) and found it as a nice guide to achieve my first goal -> try to write every article in that framework. I can't guarantee the pedantic veracity of it but I shall strive to achieve it!   
 
 {% assign notes_by_category = site.notes | group_by: "category" %}
 {% for category in notes_by_category %}
