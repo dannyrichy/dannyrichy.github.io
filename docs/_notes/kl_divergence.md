@@ -2,7 +2,6 @@
 layout: default
 title: KL divergence
 category: "What the Bayes Is Going On?"
-mathjax: true
 ---
 ## Wiener Process
 
@@ -22,15 +21,16 @@ NOTE: $$ \log x \leq x - 1, \forall x \gt 0 $$.
 
 $$
 
-\begin{aligned}
  \text{KL}(P\|Q) = \[ \int_{\mathcal{X}} p(x) \log(\frac{p(x)}{q(x)}) \,dx \]  \\
   &= -  \int_{\mathcal{X}} p(x) \log(\frac{q(x)}{p(x)}) \,dx  \\
   \geq -   \int_{\mathcal{X}} p(x) (\frac{q(x)}{p(x)} - 1) \,dx = \int_{\mathcal{X}} p(x) \,dx - \int_{\mathcal{X}} q(x) \,dx = 0 \\
   \text{KL}(P\|Q) &\geq 0
-\end{aligned}
+
+- 
 
 $$
 
 
 #### References
 - [https://stats.stackexchange.com/questions/335197/why-kl-divergence-is-non-negative](https://stats.stackexchange.com/questions/335197/why-kl-divergence-is-non-negative)
+- [https://stats.stackexchange.com/questions/483195/kullback-leibler-divergence-and-marginals](https://stats.stackexchange.com/questions/483195/kullback-leibler-divergence-and-marginals)
