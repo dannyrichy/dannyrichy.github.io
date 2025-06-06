@@ -2,6 +2,7 @@
 layout: default
 title: KL divergence
 category: "What the Bayes Is Going On?"
+mathjax: true
 ---
 ## Wiener Process
 
