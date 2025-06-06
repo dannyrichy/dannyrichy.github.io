@@ -24,21 +24,14 @@ $$ = -  \int_{\mathcal{X}} p(x) \log(\frac{q(x)}{p(x)}) \,dx  $$
 $$ \geq -   \int_{\mathcal{X}} p(x) (\frac{q(x)}{p(x)} - 1) \,dx = \int_{\mathcal{X}} p(x) \,dx - \int_{\mathcal{X}} q(x) \,dx = 0 $$
 $$ \text{KL}(P\|Q) \geq 0 $$
 
-Thus, KL divergence is non-negative
-
 - $$ \text{KL}(P(x,y)\|Q(x,y)) \geq KL(P(x)\|Q(x)) $$
 
 ***Proof***
 
 $$ \text{KL}(P(x,y)\|Q(x,y)) = \int_{\mathcal{X}}\int_{\mathcal{Y}} p(x,y) \log(\frac{p(x,y)}{q(x,y)}) \,dx \,dy $$
-
 $$ = \int_{\mathcal{X}}\int_{\mathcal{Y}} p(x | y) p(y) \log(\frac{p(x | y)p(y)}{q(x| y)q(y)}) $$
-
 $$ = \int_{\mathcal{Y}}p(y) (\int_{\mathcal{X}} p(x | y) \log(\frac{p(x| y)}{q(x| y)}) \,dx) \,dy  + \int_{\mathcal{Y}}p(y)\log(\frac{p(y)}{q(y)}) (\int_{\mathcal{X}} p(x| y) \,dx) \,dy $$
-
 $$ = \int_{\mathcal{Y}}p(y) \text{KL}(P(x| y)) \,dy + \text{KL}(P(y)\|Q(y)) $$
-
-
 $$ \text{KL}(P(x,y)\|Q(x,y)) \geq \text{KL}(P(y)\|Q(y)) $$
 
 
