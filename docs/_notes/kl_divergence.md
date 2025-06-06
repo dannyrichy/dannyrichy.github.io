@@ -13,18 +13,21 @@ Kullback–Leibler divergence measures how much one probability distribution $$ 
 
 #### Properties
 
-- $$ KL(P\|Q) \geq 0 $$, equality holds *if and only if* $$ P \eq Q $$ as measures.
+- $$ KL(P\|Q) \geq 0 $$, equality holds *if and only if* $$ P = Q $$ as measures.
 
 ***Proof***
 
 NOTE: $$ \log x \leq x - 1, \forall x \gt 0 $$. 
 
 $$
-\begin{equation*}
+
+\begin{aligned}
  \text{KL}(P\|Q) = \[ \int_{\mathcal{X}} p(x) \log(\frac{p(x)}{q(x)}) \,dx \]  \\
-  \leq \[ \int_{\mathcal{X}} p(x) (\frac{p(x)}{q(x)} - 1) \,dx \] \\
-  \eq 
-\end{equation*}
+  &= -  \int_{\mathcal{X}} p(x) \log(\frac{q(x)}{p(x)}) \,dx  \\
+  \geq -   \int_{\mathcal{X}} p(x) (\frac{q(x)}{p(x)} - 1) \,dx = \int_{\mathcal{X}} p(x) \,dx - \int_{\mathcal{X}} q(x) \,dx = 0 \\
+  \text{KL}(P\|Q) &\geq 0
+\end{aligned}
+
 $$
 
 
