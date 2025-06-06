@@ -24,7 +24,9 @@ $$ = -  \int_{\mathcal{X}} p(x) \log(\frac{q(x)}{p(x)}) \,dx  $$
 $$ \geq -   \int_{\mathcal{X}} p(x) (\frac{q(x)}{p(x)} - 1) \,dx = \int_{\mathcal{X}} p(x) \,dx - \int_{\mathcal{X}} q(x) \,dx = 0 $$
 $$ \text{KL}(P\|Q) \geq 0 $$
 
-- $$ KL(P(x,y)\|Q(x,y)) \geq KL(P(x)\|Q(x)) $$
+Thus, KL divergence is non-negative
+
+- $$ \text{KL}(P(x,y)\|Q(x,y)) \geq KL(P(x)\|Q(x)) $$
 
 ***Proof***
 
