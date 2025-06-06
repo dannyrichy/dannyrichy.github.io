@@ -9,11 +9,11 @@ Date: 06/06/2025
 
 #### Whazzat!
 
-Kullback–Leibler divergence measures how much one probability distribution $$ \mathcal{Q} $$ is different from a true probability distribution (denoted by $$ KL(P||Q) $$). It is a divergence measure and not a distance measure (meaning it is not symmetric). Thus $$ KL(P||Q) ≠ KL(Q||P) $$. 
+Kullback–Leibler divergence measures how much one probability distribution $$ \mathcal{Q} $$ is different from a true probability distribution (denoted by $$ KL(P\|Q) $$). It is a divergence measure and not a distance measure (meaning it is not symmetric). Thus $$ KL(P\|Q) ≠ KL(Q\|P) $$. 
 
 #### Properties
 
-- $$ KL(P||Q) \geq 0 $$, equality holds *if and only if* $$ P \eq Q $$ as measures.
+- $$ KL(P\|Q) \geq 0 $$, equality holds *if and only if* $$ P \eq Q $$ as measures.
 
 ***Proof***
 
@@ -21,7 +21,9 @@ NOTE: $$ \log x \leq x - 1, \forall x \gt 0 $$.
 
 $$
 \begin{equation*}
- \text{KL}(P||Q) = \[ \int_{\mathcal{X}} p(x) \log(\frac{p(x)}{q(x)}) \,dx \]  
+ \text{KL}(P\|Q) = \[ \int_{\mathcal{X}} p(x) \log(\frac{p(x)}{q(x)}) \,dx \]  \\
+  \leq \[ \int_{\mathcal{X}} p(x) (\frac{p(x)}{q(x)} - 1) \,dx \] \\
+  \eq 
 \end{equation*}
 $$
 
