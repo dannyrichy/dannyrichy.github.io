@@ -19,26 +19,24 @@ Kullback–Leibler divergence measures how much one probability distribution $$ 
 
 NOTE: $$ \log x \leq x - 1, \forall x \gt 0 $$. 
 
-$$
-
- \text{KL}(P\|Q) =  \int_{\mathcal{X}} p(x) \log(\frac{p(x)}{q(x)}) \,dx  \\
-  = -  \int_{\mathcal{X}} p(x) \log(\frac{q(x)}{p(x)}) \,dx  \\
-  \geq -   \int_{\mathcal{X}} p(x) (\frac{q(x)}{p(x)} - 1) \,dx = \int_{\mathcal{X}} p(x) \,dx - \int_{\mathcal{X}} q(x) \,dx = 0 \\
-  \text{KL}(P\|Q) \geq 0
+$$ \text{KL}(P\|Q) =  \int_{\mathcal{X}} p(x) \log(\frac{p(x)}{q(x)}) \,dx  $$
+$$ = -  \int_{\mathcal{X}} p(x) \log(\frac{q(x)}{p(x)}) \,dx  $$
+$$ \geq -   \int_{\mathcal{X}} p(x) (\frac{q(x)}{p(x)} - 1) \,dx = \int_{\mathcal{X}} p(x) \,dx - \int_{\mathcal{X}} q(x) \,dx = 0 $$
+$$ \text{KL}(P\|Q) \geq 0 $$
 
 - $$ KL(P(x,y)\|Q(x,y)) \geq KL(P(x)\|Q(x)) $$
 
 ***Proof***
-$$
+$$ \text{KL}(P(x,y)\|Q(x,y)) = \int_{\mathcal{X}}\int_{\mathcal{Y}} p(x,y) \log(\frac{p(x,y)}{q(x,y)}) \,dx \,dy $$
 
- \text{KL}(P(x,y)\|Q(x,y)) = \int_{\mathcal{X}}\int_{\mathcal{Y}} p(x,y) \log(\frac{p(x,y)}{q(x,y)}) \,dx \,dy \\
- = \int_{\mathcal{X}}\int_{\mathcal{Y}} p(x \text{\textbar}  y) p(y) \log(\frac{p(x \text{\textbar} y)p(y)}{q(x\text{\textbar} y)q(y)}) \\
- = \int_{\mathcal{Y}}p(y) (\int_{\mathcal{X}} p(x \text{\textbar} y) \log(\frac{p(x\text{\textbar} y)}{q(x\text{\textbar} y)}) \,dx) \,dy  + \int_{\mathcal{Y}}p(y)\log(\frac{p(y)}{q(y)}) (\int_{\mathcal{X}} p(x\text{\textbar} y) \,dx) \,dy \\
- = \int_{\mathcal{Y}}p(y) \text{KL}(P(x\text{\textbar} y)) \,dy + \text{KL}(P(y)\|Q(y)) \\
+$$ = \int_{\mathcal{X}}\int_{\mathcal{Y}} p(x \text{\textbar}  y) p(y) \log(\frac{p(x \text{\textbar} y)p(y)}{q(x\text{\textbar} y)q(y)}) $$
 
- \geq \text{KL}(P(y)\|Q(y))
+$$ = \int_{\mathcal{Y}}p(y) (\int_{\mathcal{X}} p(x \text{\textbar} y) \log(\frac{p(x\text{\textbar} y)}{q(x\text{\textbar} y)}) \,dx) \,dy  + \int_{\mathcal{Y}}p(y)\log(\frac{p(y)}{q(y)}) (\int_{\mathcal{X}} p(x\text{\textbar} y) \,dx) \,dy $$
 
-$$
+$$ = \int_{\mathcal{Y}}p(y) \text{KL}(P(x\text{\textbar} y)) \,dy + \text{KL}(P(y)\|Q(y)) $$
+
+
+$$ \text{KL}(P(x,y)\|Q(x,y)) \geq \text{KL}(P(y)\|Q(y)) $$
 
 
 #### References
