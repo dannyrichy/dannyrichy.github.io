@@ -26,3 +26,10 @@ However, I still haven't figured out if this is same as Adam optimizer, coz in A
 Okay, this is technically not a bug in my understanding, but it still deserves a place here because I did not fully grasp this concept. The PDF function returns the likelihood of a point, not the probability. You can find the probability of an event lying between two values by integrating the PDF between them.
 
 ---
+#### Convexity of Cross-Entropy loss
+
+So I came across this paper [On the Universality of the Logistic Loss Function](https://arxiv.org/pdf/1805.03804), where they show that the log loss is an upper bound to any choice of loss function that is smooth, proper (If the true probability of the positive class is $$ p $$, then minimizing the expected loss over many draws of $$ y \sim \mathtext{Bernoulli}(p) $$ happens exactly at $$ q=p $$, meaning the best possible prediction under that loss is the true probability) and ***convex for binary classification problem***.
+
+So I thought NN is non-convex when I have non-linear activation function which is true but what they mean by ***convex for binary classification problem*** is convex w.r.t $$ q $$, (or the output) and not w.r.t the weights of the model.
+
+---
