@@ -87,22 +87,6 @@ title: "CV"
 
 ---
 
-## Projects
-
-<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1823999" class="download-link"> Unmasking Deep Learning for Time Series Anomaly Detection (M.Sc. Thesis) </a></h4>
-
-<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="/notes/music-ml" class="download-link"> Shenanigans with Learnt Representations of Music Taggers </a><a href="https://github.com/Adhithyan8/musical-embeddings" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
-
-<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/git-bisect/blob/master/Git%20Bi-sect.pdf" class="download-link"> Git Bi-sect: Dissecting Git Re-basin Paper </a><a href="https://github.com/dannyrichy/git-bisect" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
-
-<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/dl-model-extraction/blob/master/DL_Project_Group_42_v1.1.pdf" class="download-link"> Deep Learning Model Extraction Attack  </a><a href="https://github.com/dannyrichy/dl-model-extraction" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
-
-<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/graph-ml-project/blob/master/Adv_ML_Project.pdf" class="download-link"> Network Representation Learning  </a><a href="https://github.com/dannyrichy/graph-ml-project" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
-
-<h4><i class="fa-regular fa-file-lines" style="color: #333;"></i><a href="https://github.com/dannyrichy/graphon" class="download-link"> Graphons: Efficient Graph Embeddings  </a><a href="https://github.com/dannyrichy/graphon" target="_blank" style="color: #333; text-decoration: none;"><i class="fab fa-github" style="color: #333;"></i></a></h4>
-
----
-
 ## Skills
 
   Python, Java, Scala, TensorFlow, PyTorch, Keras, Apache Spark, Airflow, OpenMPI, SQL, AWS, GCP, Git, Slurm, OAR
