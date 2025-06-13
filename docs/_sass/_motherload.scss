@@ -3,7 +3,7 @@
 
 /* Base font for the entire document */
 html {
-  font: 10px/1.5 'Merriweather', serif;
+  font: 12px/1.5 'Merriweather', serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -102,7 +102,7 @@ h1 {
 
 @media (min-width: 30rem) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
   }
 }
@@ -122,7 +122,7 @@ h1 a {
 @media (min-width: 30rem) {
   h2 {
     margin-top: 2.5rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 }
