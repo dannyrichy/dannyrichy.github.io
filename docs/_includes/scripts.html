@@ -13,15 +13,6 @@
             else if (linkPath === "/cv" && currentPath === "/cv") {
                 link.classList.add("active");
             }
-            else if (linkPath === "/me" && currentPath === "/me") {
-                link.classList.add("active");
-            }
-            else if (currentPath.startsWith("/tut") && linkPath === "/tut") {
-                link.classList.add("active");
-            }
-            else if (linkPath === "/hist" && currentPath === "/hist") {
-                link.classList.add("active");
-            }
             // Highlight "Notes" link if we are in /notes/* paths
             else if (currentPath.startsWith("/notes") && linkPath === "/notes") {
                 link.classList.add("active");
